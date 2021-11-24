@@ -1,16 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Page/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Site BENGAL en construction
-        </p>
-      </header>
-    </div>
+    <>
+      <Home/>
+    </>
   );
 }
 
