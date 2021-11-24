@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Motive = () => {
+const Newsletter = () => {
     return (
         <div>
             MOTIVE TOI
@@ -8,4 +8,4 @@ const Motive = () => {
     );
 };
 
-export default Motive;
+export default Newsletter;

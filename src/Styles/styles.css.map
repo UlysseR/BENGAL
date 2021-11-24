@@ -10,8 +10,9 @@
         "components/_concept.scss",
         "components/_footer.scss",
         "components/_header.scss",
-        "components/_motive.scss",
-        "components/_ressource.scss"
+        "components/_newsletter.scss",
+        "components/_ressource.scss",
+        "components/_valeurs.scss"
     ],
     "names": [],
     "file": "styles.css"

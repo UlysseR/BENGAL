@@ -3,8 +3,9 @@ import Banner from '../components/Banner';
 import Concept from '../components/Concept';
 import Chaine from '../components/Chaine';
 import Ressource from '../components/Ressource';
-import Motive from '../components/Motive';
 import Footer from '../components/Footer';
+import Valeurs from '../components/Valeurs';
+import Newsletter from '../components/Newsletter';
 
 
 const Home = () => {
@@ -13,9 +14,10 @@ const Home = () => {
             <Header/>
             <Banner/>
             <Concept/>
+            <Valeurs/>
             <Chaine/>
             <Ressource/>
-            <Motive/>
+            <Newsletter/>
             <Footer/>
         </div>
     );

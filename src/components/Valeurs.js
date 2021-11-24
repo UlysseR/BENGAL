@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Chaine = () => {
+const Valeurs = () => {
     return (
         <div>
-            LA CHAINE
+            NOS VALEURS
         </div>
     );
 };
 
-export default Chaine;
+export default Valeurs;
