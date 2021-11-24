@@ -2,7 +2,7 @@ import React from 'react';
 
 const Chaine = () => {
     return (
-        <div>
+        <div className='test'>
             LA CHAINE
         </div>
     );
