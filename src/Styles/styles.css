@@ -315,7 +315,7 @@ section .video iframe {
   height: 392px;
 }
 
-footer {
+.footer {
   font-size: 16px;
   font-family: "Helvetica Neue", sans-serif;
   position: absolute;
@@ -344,31 +344,8 @@ footer {
           align-items: center;
 }
 
-.footer-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.footer-center .footer-company-name {
-  text-align: center;
-  margin-top: 15px;
-  margin-left: 5px;
-}
-
-.footer-center a {
-  color: black;
-}
-
-.footer-center i {
-  margin-right: 5px;
+.footer-right {
+  margin-bottom: -22px;
 }
 
 .footer-right a {
@@ -377,6 +354,12 @@ footer {
 
 .footer-right img {
   height: 45px;
+}
+
+.footer-left {
+  font-family: "Denton test", sans-serif;
+  font-weight: lighter;
+  margin-bottom: -20px;
 }
 
 a.footer {

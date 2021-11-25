@@ -1,4 +1,4 @@
-footer {
+.footer {
     font-size: 16px;
     font-family: $font1;
     position: absolute;
@@ -20,31 +20,22 @@ footer {
 
 }
 
-.footer-center{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    .footer-company-name{
-        text-align: center;
-        margin-top: 15px;
-        margin-left: 5px;
-    }
-    a{
-        color: black ;
-    }
-    i{
-        margin-right: 5px;
-    }
-
-}
 
 .footer-right{
+
+    margin-bottom: -22px;
     a{
         margin-right: 10px;
     }
     img{
         height: 45px;
     }
+}
+
+.footer-left{
+    font-family: $font2;
+    font-weight: lighter;
+    margin-bottom: -20px;
 }
 
 
