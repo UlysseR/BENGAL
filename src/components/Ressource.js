@@ -3,7 +3,7 @@ import React from 'react';
 const Ressource = () => {
     return (
         <div>
-            RESSOURCE
+            
         </div>
     );
 };
