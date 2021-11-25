@@ -4,7 +4,61 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Black-900.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Bold-700.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-ExtraBold-800.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Light-300.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Medium-500.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Regular-400.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Denton test';
+    src: url(font/Denton-Test-Thin-100.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Helvetica Neue';
@@ -65,4 +119,5 @@ $color4: #F5F5F5;
 
 
 
-$font: 'Helvetica Neue', sans-serif;
+$font1: 'Helvetica Neue', sans-serif;
+$font2: 'Denton test', sans-serif;

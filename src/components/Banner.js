@@ -1,13 +1,16 @@
 import React from 'react';
+import ban from '../media/ban.png';
 
 const Banner = () => {
     return (
-        <section class="banner">
-        <div class="ban-img">
+    <section className="banner">
+        <div className="ban-img">
+            <img src={ban}alt=""/>
         </div>
-        <div class="inner-banner">
-            <h1>TU VEUX ENTREPRENDRE ?</h1>
-            <h2>FONCE, ON VA T’AIDER.</h2>   
+        <div className="inner-banner">
+            <p>TU VEUX ENTREPRENDRE ?</p>
+            <p>FONCE</p> 
+            <p>ON VA T’AIDER.</p>   
         </div>
     </section>
     );

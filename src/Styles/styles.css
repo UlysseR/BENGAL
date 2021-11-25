@@ -6,6 +6,62 @@
 }
 
 @font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Black-900.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Bold-700.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-ExtraBold-800.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Light-300.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Medium-500.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Regular-400.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Thin-100.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Helvetica Neue';
   src: url(font/HelveticaNeue-Medium.woff2) format("woff2"), url(font/HelveticaNeue-Medium.woff) format("woff");
   font-weight: 500;
@@ -53,8 +109,58 @@
   font-display: swap;
 }
 
-.ban-img {
-  background: url("../media/ban.png");
+.banner {
+  background-color: #F5F5F5;
+  position: relative;
+  height: 100vh;
+}
+
+.banner .ban-img {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  margin: 0 auto;
+  width: 350px;
+  height: 500px;
+  z-index: 3;
+}
+
+.banner .ban-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner .inner-banner {
+  position: absolute;
+  top: 120px;
+  left: 300px;
+  font-size: 40px;
+  z-index: 5;
+}
+
+.banner .inner-banner p:nth-child(1) {
+  -webkit-transform: translate(300px, 150px);
+          transform: translate(300px, 150px);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.banner .inner-banner p:nth-child(2) {
+  -webkit-transform: translate(300px, 135px);
+          transform: translate(300px, 135px);
+  font-size: 70px;
+  font-family: "Denton test", sans-serif;
+}
+
+.banner .inner-banner p:nth-child(3) {
+  -webkit-transform: translate(300px, 110px);
+          transform: translate(300px, 110px);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
 }
 
 .test {
@@ -138,6 +244,16 @@ a {
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F5F5F5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
   height: 70px;
   line-height: 70px;
   position: fixed;
@@ -145,15 +261,17 @@ a {
   z-index: 999;
 }
 
-.menu {
-  margin-left: 400px;
-  margin-top: -60px;
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: 40px;
 }
 
 .menu a {
-  color: black;
-  margin-left: 80px;
-  font-size: 16pt;
+  color: #000000;
+  margin-left: 59px;
+  font-size: 16px;
   font-family: "Helvetica Neue", sans-serif;
 }
 
