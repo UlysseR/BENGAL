@@ -1,3 +1,10 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Helvetica Neue';
   src: url(font/HelveticaNeue-Medium.woff2) format("woff2"), url(font/HelveticaNeue-Medium.woff) format("woff");
@@ -46,10 +53,111 @@
   font-display: swap;
 }
 
+.ban-img {
+  background: url("../media/ban.png");
+}
+
 .test {
   color: #0D21A1;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 50px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-center a {
+  color: white;
+}
+
+.footer-center i {
+  margin-right: 5px;
+}
+
+a.footer {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.fab {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.fab:hover {
+  color: #D65D38;
+}
+
+.footer-left.footer-center.footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.menu {
+  margin-left: 400px;
+  margin-top: -60px;
+}
+
+.menu a {
+  color: black;
+  margin-left: 80px;
+  font-size: 16pt;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+a:hover {
+  color: #D65D38;
 }
 /*# sourceMappingURL=styles.css.map */

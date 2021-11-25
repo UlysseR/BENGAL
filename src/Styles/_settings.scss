@@ -1,3 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
 
 @font-face {
     font-family: 'Helvetica Neue';
@@ -51,6 +58,7 @@
 
 $color1: #0D21A1;
 $color2: #15B097;
+$color3: #D65D38;
 
 $color3: #0A0A0A;
 $color4: #F5F5F5;
