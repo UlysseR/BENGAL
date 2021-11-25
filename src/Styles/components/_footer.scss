@@ -1,4 +1,6 @@
 footer {
+    font-size: 16px;
+    font-family: $font1;
     position: absolute;
     bottom: 0;
     background-color: $color4;
@@ -37,10 +39,11 @@ footer {
 }
 
 .footer-right{
-
-    img {
-        height: 50px;
-        width: 50px;
+    a{
+        margin-right: 10px;
+    }
+    img{
+        height: 45px;
     }
 }
 

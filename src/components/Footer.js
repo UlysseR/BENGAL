@@ -1,5 +1,5 @@
 import React from 'react';
-import logo_tremplin from '../media/logo_tremplin.png';
+import logo from '../media/logo.png';
 import fichier15 from '../media/SVG/fichier15.svg';
 import fichier18 from '../media/SVG/fichier18.svg';
 import fichier19 from '../media/SVG/fichier19.svg';
@@ -10,12 +10,10 @@ const Footer = () => {
 
         <footer className="footer">
             <div className="footer-left">
-                <img src={logo_tremplin} alt="" className="logo-text"/>
+                <img src={logo} alt="" class="logo-text"/>
             </div>
             <div className="footer-center">
-                <p>
-                    <a className="text-mail" href="mailto:bengal.dcp@gmail.com" className="fa fa-envelope">bengal.dcp@gmail.com</a>
-                </p>
+                <a className="text-mail" href="mailto:bengal.dcp@gmail.com" className="fa fa-envelope"></a>
                 <p className="footer-company-name">© Tremplin 2021·Confidentialité·Conditions générales·Plan du site·Fonctionnement du site·Infos sur l'entreprise</p>             
             </div>
             <div className="footer-right">
