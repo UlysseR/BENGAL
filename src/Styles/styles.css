@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Helvetica Neue';
   src: url(font/HelveticaNeue-Medium.woff2) format("woff2"), url(font/HelveticaNeue-Medium.woff) format("woff");
@@ -46,10 +53,115 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Black-900.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Bold-700.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-ExtraBold-800.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Light-300.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Medium-500.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Regular-400.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton test';
+  src: url(font/Denton-Test-Thin-100.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
 .test {
   color: #0D21A1;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Denton test", "sans-serif";
   font-weight: bold;
   font-size: 50px;
+}
+
+section {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section article {
+  margin-right: 30px;
+}
+
+section article p {
+  margin-top: 15px;
+}
+
+section button {
+  background-color: grey;
+  width: 213px;
+  height: 59px;
+  border-radius: 93px;
+  margin-top: 50px;
+}
+
+section .video iframe {
+  background-color: grey;
+  width: 628px;
+  height: 392px;
 }
 /*# sourceMappingURL=styles.css.map */

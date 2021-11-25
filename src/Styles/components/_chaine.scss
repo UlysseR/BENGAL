@@ -1,6 +1,46 @@
+html{
+    font-family: $font1;
+}
+h1{
+    font-weight: bold;
+    font-size: 28px;
+}
 .test{
     color: $color1;
-    font-family: $font;
+    font-family: $font2;
     font-weight: bold;
     font-size: 50px;
 }
+section{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    article{
+        margin-right: 30px;
+        p{
+            margin-top: 15px;
+        }
+    }
+    button{
+        background-color: grey;
+        width: 213px;
+        height: 59px;
+        border-radius: 93px;
+        margin-top: 50px;
+    }
+
+    .video{
+        iframe{
+            background-color: grey;
+            width: 628px;
+            height: 392px;
+        }
+    }
+
+}
+
