@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../media/logo.png'
 
 const Header = () => {
     return (
         <header className="header">
-            <img src="../media/logo.png" alt="" className="logo"/>
+                <img src={logo} alt="" className="logo"/>
                 <nav className="menu">
                     <a href="#concept">Concept</a>
                     <a href="#valeurs">Nos Valeurs</a>
