@@ -4,7 +4,7 @@ import logo from '../media/logo.png'
 const Header = () => {
     return (
         <header className="header">
-                <img src={logo} alt="" className="logo"/>
+                <img src={logo} alt="Logo de Tremplin" className="logo"/>
                 <nav className="menu">
                     <a href="#concept">Concept</a>
                     <a href="#valeurs">Nos Valeurs</a>

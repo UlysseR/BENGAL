@@ -5,7 +5,7 @@ const Banner = () => {
     return (
     <section className="banner">
         <div className="ban-img">
-            <img src={ban}alt=""/>
+            <img src={ban}alt="Sportif de haut niveau qui démarre une course"/>
         </div>
         <div className="inner-banner">
             <p>TU VEUX ENTREPRENDRE ?</p>
