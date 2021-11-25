@@ -360,6 +360,7 @@ section .video iframe {
   font-family: "Denton test", sans-serif;
   font-weight: lighter;
   margin-bottom: -20px;
+  margin-left: 130px;
 }
 
 a.footer {
