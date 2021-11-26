@@ -18,7 +18,7 @@ const Footer = () => {
                     <a target="_blank" href="https://twitter.com/Tremplin_/with_replies"><img className="footer-img" src={fichier18} alt=""></img></a>
                     <a target="_blank" href="https://www.tiktok.com/@tremplindispositif?lang=fr"><img className="footer-img" src={fichier19} alt=""></img></a>
                     <a target="_blank" href="https://www.facebook.com/profile.php?id=100075059184328"><img className="footer-img" src={fichier17} alt=""></img></a>
-                    <a target="_blank" href="https://www.youtube.com/"><img src={fichier16} alt=""></img></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img className="footer-img" src={fichier16} alt=""></img></a>
                 </div>
             </div>
         
