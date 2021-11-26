@@ -403,7 +403,7 @@ section .video iframe {
 }
 
 .footer {
-  margin-top: 300px;
+  margin-top: 182px;
   font-size: 14px;
   font-family: "Helvetica Neue", sans-serif;
   background-color: #FFFAF4;
@@ -515,5 +515,102 @@ a {
 
 a:hover {
   color: #D65D38;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.container-newsletter {
+  position: relative;
+  color: #353535;
+  background-color: transparent !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+
+.newsletter-title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  background: transparent !important;
+}
+
+.newsletter-content {
+  font-size: 16px;
+  width: 915px;
+  height: 60px;
+  margin-top: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.send:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.mail {
+  margin-right: 100px;
+  margin-top: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: reslative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.send {
+  position: absolute;
+  margin-top: 7.5px;
+  margin-left: 230px;
+  width: 70px;
+  height: 70px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.form-email {
+  font-size: 16px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  margin-left: 0;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px black;
+}
+
+.n-icon {
+  margin-left: 143px;
+  margin-top: 25px;
+  width: 75px;
+  height: 75px;
 }
 /*# sourceMappingURL=styles.css.map */
