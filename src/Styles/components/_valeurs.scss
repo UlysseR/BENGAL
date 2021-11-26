@@ -1,0 +1,75 @@
+.container-valeurs {
+  margin-top: 150px;
+  position: relative;
+  color: #353535;
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  bottom: 50px;
+}
+
+.logo-n {
+    width: 72px;
+    height: 72px;
+    margin-left: 182px;
+    margin-top: 25px;
+}
+.valeurs-title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  background: transparent !important;
+}
+
+.container-1 {
+  position: relative;
+}
+
+.span1 {
+  font-family: "Dento 900";
+  font-size: 200px;
+  font-weight: 900;
+  color: #d65d38;
+  filter: opacity(20%);
+  line-height: 30px;
+  margin-left: 190px;
+  position: absolute;
+}
+
+.text-1 {
+  width: 345px;
+  height: 150px;
+  margin-left: 243px;
+  position: absolute;
+  background: transparent;
+  line-height: 25px;
+}
+
+.container-2 {
+  position: relative;
+}
+
+.span2 {
+  font-family: "Dento 900";
+  font-size: 200px;
+  font-weight: 900;
+  color: #d65d38;
+  filter: opacity(20%);
+  line-height: 30px;
+  position: absolute;
+  margin-left: 1023px;
+  margin-top: 50px;
+}
+
+.text-2 {
+  width: 345px;
+  height: 175px;
+  position: absolute;
+  background: transparent;
+  line-height: 25px;
+  margin-left: 852px;
+  margin-top: 80px;
+}

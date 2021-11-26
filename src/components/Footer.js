@@ -4,12 +4,14 @@ import fichier18 from '../media/SVG/fichier18.svg';
 import fichier19 from '../media/SVG/fichier19.svg';
 import fichier17 from '../media/SVG/fichier17.svg';
 import fichier16 from '../media/SVG/fichier16.svg';
+import logofooter from '../media/logo.png';
 
 const Footer = () => {
     return (
             
         <footer className="footer">
             <div className="footer-left">
+                <img src={logofooter} className="footer-logo"></img>
             <p className="footer-company-name">© Tremplin 2021 · Confidentialité · Conditions générales · Plan du site · Fonctionnement du site · Infos sur l'entreprise</p>
             </div>
             <div className="footer-right">
