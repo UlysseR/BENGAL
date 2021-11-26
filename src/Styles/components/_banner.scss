@@ -1,83 +1,100 @@
-.header-title {
-    top: 30%;
+.container {
+    position: relative;
+    color: #353535;
+    background-color: transparent !important;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    min-height: 100vh;
+}
+
+.header-text {
+    bottom: 50%;
+    right: 45%;
     position: absolute;
-    left: 30%;
+    background: transparent;
+
 }
 
 .header-img {
-    top: 30%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    left: 45%;
     position: absolute;
     transform: scaleX(-1);
     width: 630px;
     height: 434px;
-    left: 50%;
-}
-
-.container-text {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    color: #353535;
 }
 
 .title-1 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 50px;
     font-weight: bold;
-    top: 0;
+    // position: absolute;
+    // top: 5%;
+    background: transparent;
 }
 
 .title-2 {
     font-size: 70px;
     font-family: "Denton 500", sans-serif;
-    left: 0;
-    top: 0;
+    // position: absolute;
+    // top: 17%;
+    background: transparent;
 }
 
 .title-3 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 50px;
     font-weight: lighter;
-    top: 0;
+    // position: absolute;
+    // top: 35%;
+    background: transparent;
 }
+
+
+.scroll-down {
+    top: 80%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 53px;
+    height: 53px;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+
+
+}
+
+// .scroll-down2 {
+//     position: absolute;
+//     width: 53px;
+//     height: 53px;
+//     top: 80%;
+//     left: 50%;
+// }
+
+.scroll-down:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+// .scroll-down2:hover {
+//     display: inline;
+//     cursor: pointer;
+//     transform: scale(1.3);
+//     -webkit-transform: scale(1.3);
+//     -moz-transform: scale(1.3);
+//     -ms-transform: scale(1.3);
+//     -o-transform: scale(1.3);
+// }
 
 p {
     margin: 0;
-}
-
-.scroll-btn {
-    width: 80px;
-    border: solid 15px black;
-}
-
-.scroll-down {
-    position: absolute;
-    width: 53px;
-    height: 53px;
-    top: 70%;
-    left: 50%;
-}
-
-.scroll-down2 {
-    position: absolute;
-    width: 53px;
-    height: 53px;
-    top: 70%;
-    left: 50%;
-}
-
-.scroll-down:hover {
-    display: none;
-    cursor: pointer;
-}
-
-.scroll-down2:hover {
-    display: inline;
-    cursor: pointer;
 }

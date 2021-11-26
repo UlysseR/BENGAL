@@ -8,14 +8,11 @@ const Banner = () => {
         <>
             <div className="container">
                 <img className="header-img" src={headerimg} alt="header-img"></img>
-                <div className="container-text">
+                <div className="header-text">
                     <p className="title-1">TU VEUX ENTREPRENDRE ?</p>
                     <p className="title-2">FONCE,</p>
                     <p className="title-3">ON VA T'AIDER.</p>
-                </div>
-            </div>
-            <div className="scroll-btn">  
-                <img className="scroll-down2" src={scrolldown2}></img>
+                </div>         
                 <img className="scroll-down" src={scrolldown}></img>
             </div>
 

@@ -20,18 +20,20 @@ a{
 }
 
 .logo {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    height: 40px;
+ height: 40px;
+ width: 155px;
 }
 
 .menu a {
-    color: #000000;
-    margin-left: 59px;
+    color: #353535;
+    margin-left: 5em;
     font-size: 16px;
     font-family: $font1;
-
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 a:hover {
