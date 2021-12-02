@@ -1526,4 +1526,35 @@ i {
     margin-top: -170px;
   }
 }
+
+h2 {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: "Denton test", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Denton test", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: justify;
+  font-family: "Helvetica Neue", sans-serif;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 40px;
+  text-align: justify;
+  font-family: "Helvetica Neue", sans-serif;
+}
 /*# sourceMappingURL=styles.css.map */

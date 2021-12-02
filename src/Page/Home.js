@@ -7,8 +7,6 @@ import Footer from '../components/Footer';
 import Valeurs from '../components/Valeurs';
 import Events from '../components/Events';
 
-
-
 const Home = () => {
     return (
         <div className="bengal">
