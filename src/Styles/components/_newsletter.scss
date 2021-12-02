@@ -1,83 +1,160 @@
-input:focus,
-textarea:focus,
-select:focus {
-    outline: none;
+
+
+// .news-container {
+//     margin-left: 23%;
+//     display: grid;
+//     grid-template-columns: auto auto;
+// }
+
+// .news-title {
+//     font-family: Helvetica Neue;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 30px;
+// line-height: 30px;
+// }
+
+
+// .news-mail {
+//     margin-top: 50px;
+//     color: #353535;
+//     font-size: 16px;
+//     font-family: $font1;
+//     font-weight: lighter;
+//     border-top: none;
+//     border-left: none;
+//     border-right: none;
+//     border-bottom: solid 1px #353535;
+// }
+// .container-newsletter {
+//     position: relative;
+//     color: #353535;
+//     background-color: transparent !important;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 350px;
+// }
+
+// .newsletter-title {
+//     font-family: "Helvetica Neue", sans-serif;
+//     font-size: 40px;
+//     font-weight: bold;
+//     position: absolute;
+//     background: transparent !important;
+// }
+
+// .newsletter-content {
+//     font-family: Helvetica Neue;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 16px;
+//     line-height: 25px;
+//     width: 765px;
+//     height: 60px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     display: block;
+//     margin-top: 50px;
+//     text-align: center;
+// }
+
+// .mail {
+//     margin-right: 100px;
+//     margin-top: 100px;
+//     align-items: center;
+//     position: reslative;
+//     justify-content: center;
+//     display: flex;
+// }
+
+// .send-btn {
+//     position: absolute;
+//     margin-top: 7.5px;
+//     margin-left: 250px;
+//     width: 70px;
+//     height: 70px;
+//     transition: 0.2s;
+//     -webkit-transition: 0.1s;
+//     -moz-transition: 0.1s;
+//     -ms-transition: 0.1s;
+//     -o-transition: 0.1s;
+// }
+
+// .send-btn:hover {
+//     cursor: pointer;
+//     transform: scale(1.2);
+// }
+
+//
+
+// .n-icon {
+//     margin-left: 143px;
+//     margin-top: 25px;
+//     width: 75px;
+//     height: 75px;
+// }
+
+@media only screen and (min-width: 2560px) {
+    .container-newsletter {
+        margin-top: 250px;
+    }
+    .newsletter-title {
+        font-size: 50px;
+    }
+    .n-icon {
+        width: 115px;
+        height: 115px;
+        margin-left: 165px;
+        margin-top: 20px;
+    }
+    .newsletter-content {
+        font-size: 18px;
+    }
 }
 
-.container-newsletter {
-    position: relative;
-    color: #353535;
-    background-color: transparent !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 350px;
+@media only screen and (max-width: 1440px) {
+    .container-newsletter {
+        top: -200px;
+        margin-bottom: 0px;
+    }
+    .newsletter-content {
+        margin-top: -150px;
+    }
+    input {
+        width: 300px;
+    }
 }
 
-.newsletter-title {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    background: transparent !important;
-}
-
-.newsletter-content {
-    font-size: 16px;
-    width: 765px;
-    height: 60px;
-    margin-top: 130px;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-}
-
-.send:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-}
-.mail {
-    margin-right: 100px;
-    margin-top: 180px;
-    align-items: center;
-    position: reslative;
-    justify-content: center;
-    display: flex;
-}
-
-.send {
-    position: absolute;
-    margin-top: 7.5px;
-    margin-left: 280px;
-    width: 70px;
-    height: 70px;
-    transition: 0.1s;
-    -webkit-transition: 0.1s;
-    -moz-transition: 0.1s;
-    -ms-transition: 0.1s;
-    -o-transition: 0.1s;
-}
-
-.form-email {
-    color: #353535;
-    font-size: 16px;
-    font-family: $font1;
-    font-weight: lighter;
-    margin-left: 0;
-    position: absolute;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid 1px #353535;
-}
-
-.n-icon {
-    margin-left: 143px;
-    margin-top: 25px;
-    width: 75px;
-    height: 75px;
+@media only screen and (max-width: 390px) {
+    .container-newsletter {
+        margin-top: 400px;
+    }
+    .newsletter-title {
+        font-size: 28px;
+    }
+    .n-icon {
+        width: 55px;
+        height: 55px;
+        margin-top: 20px;
+        margin-left: 95px;
+    }
+    .newsletter-content {
+        margin-top: -150px;
+        width: 265px;
+        height: 60px;
+        font-size: 12px;
+    }
+    .form-email {
+        font-size: 12px;
+    }
+    input {
+        width: 200px;
+        font-size: 12px;
+    }
+    .send-btn {
+        width: 50px;
+        height: 50px;
+        margin-left: 180px;
+    }
 }

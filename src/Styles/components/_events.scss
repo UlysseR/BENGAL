@@ -1,0 +1,51 @@
+.events-container {
+    margin-left: 20%;
+    position: relative;
+    height: 500px;
+    margin-top: 150px;
+    color: #353535;
+    background-color: transparent !important;
+    .events-content {
+        margin-top: 150px;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        position: absolute;
+        width: 542px;
+        height: 143px;
+    }
+}
+
+.events-title {
+    position: absolute;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background: transparent !important;
+}
+
+.all-events {
+    margin-top: -150px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    margin-left: 20%;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 1440px) {
+    .events-container {
+        margin-top: 250px;
+        margin-left: 15%;
+    }
+    .all-events {
+        margin-left: 15%;
+        margin-top: -170px;
+    }
+}

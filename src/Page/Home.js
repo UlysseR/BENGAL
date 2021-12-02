@@ -5,7 +5,8 @@ import Chaine from '../components/Chaine';
 import Ressource from '../components/Ressource';
 import Footer from '../components/Footer';
 import Valeurs from '../components/Valeurs';
-import Newsletter from '../components/Newsletter';
+import Events from '../components/Events';
+
 
 
 const Home = () => {
@@ -17,7 +18,7 @@ const Home = () => {
             <Valeurs/>
             <Chaine/>
             <Ressource/>
-            <Newsletter/>
+            <Events/>
             <Footer/>
         </div>
     );

@@ -2,26 +2,21 @@ a:hover {
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 .header {
     display: flex;
-    background-color: $color4;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 70px;
     line-height: 70px;
-    position: fixed;
-    top: 0;
-    z-index: 999;
 }
 
 .logo {
- height: 40px;
- width: 155px;
+    height: 40px;
+    width: 155px;
 }
 
 .menu a {
@@ -36,7 +31,47 @@ a{
     -o-transition: 0.2s;
 }
 
-a:hover {
-    color: #D65D38  ;
+.hamburger {
+    display: none;
 }
 
+a:hover {
+    color: #d65d38;
+}
+
+@media only screen and (min-width: 2560px) {
+    .menu a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .header {
+        display: block;
+        line-height: normal;
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        margin-left: 133px;
+        margin-top: 30px;
+        width: 100px;
+        height: 28px;
+    }
+    .hamburger {
+        float: right;
+        margin-right: 19px;
+        margin-top: 28px;
+        display: inherit;
+        width: 42px;
+        height: 31px;
+    }
+}
+
+@media only screen and (max-width: 1440px)  {
+ .header {
+     position: sticky;
+ }
+}
