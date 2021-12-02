@@ -1,0 +1,70 @@
+.events{
+
+    
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 100px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.event1, .event2, .event3, .event4, .event5, .event6{
+
+    background-color: #D65D38;
+    height: 500px;
+    width: 100%;
+    margin-top: 92px;
+    position: relative;
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.event-title{
+
+    margin-left: 326px;
+    background: transparent;
+    font-family: $font1;
+    text-transform : uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    
+}
+
+.event-desc{
+    text-align: justify;
+    background: transparent;
+    font-family: $font1;
+    font-size: 26px;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.event-bottom {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.event-date{
+    
+    background-color: #353535;
+    font-size: 26px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: $font1;
+}
