@@ -20,6 +20,7 @@ const Home = () => {
             <Ressource/>
             <Events/>
             <Footer/>
+            <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
         </div>
     );
 };
