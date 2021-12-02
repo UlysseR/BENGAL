@@ -766,6 +766,8 @@ a {
 }
 
 .header {
+  position: -webkit-sticky;
+  position: sticky;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
