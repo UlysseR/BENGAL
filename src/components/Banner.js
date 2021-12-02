@@ -26,7 +26,7 @@ const Banner = () => {
                     <p className="title-3">ON VA T'AIDER.</p>
                 </div>
             </div></FadeInLeftDiv>
-            <div data-aos="fade" data-aos-delay="600" className="container-scroll">
+            <div data-aos="fade" data-aos-delay="2500" className="container-scroll">
               <a href="#concept"><img className="scroll-down" src={scrolldown}></img></a>  
             </div>
 
