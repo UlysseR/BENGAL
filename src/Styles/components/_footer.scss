@@ -159,3 +159,13 @@ select:focus {
     margin-left: -50px;
   }
 }
+
+@media only screen and (max-width: 433px) {
+  .grid-footer {
+    display: none;
+  }
+  .text-footer {
+    font-size: 10px;
+    margin-left: 5%;
+  }
+}

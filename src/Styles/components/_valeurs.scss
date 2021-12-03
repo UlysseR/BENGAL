@@ -169,6 +169,28 @@
 }
 }
 
-@media only screen and (max-width: 390px) {
-
+@media only screen and (max-width: 433px) {
+  .container-valeurs {
+    margin-top: 5%;
+  }
+  .valeurs-title {
+    margin-left: 10%;
+  }
+  .grid-valeurs {
+    margin-top: 40%;
+    grid-template-columns: auto;
+    margin-left: 30%;
+  }
+  .grid-p {
+    text-align: center;
+    margin-left: -25%;
+  }
+  .pragmatisme {
+    .grid-title {
+      margin-left: 0;
+      .grid-p {
+        margin-left: -20%;
+      }
+    }
+  }
 }

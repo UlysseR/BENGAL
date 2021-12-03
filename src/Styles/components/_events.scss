@@ -49,3 +49,29 @@
         margin-top: -170px;
     }
 }
+
+@media only screen and (max-width: 433px) {
+    .events-container {
+        margin-top: 80%;
+        overflow: hidden;
+    }
+    .events-title {
+        text-align: center;
+        margin-left: -20%;
+    }
+    .events-content {
+        p {
+            margin-left: -2%;
+            width: 315px;
+            text-align: center;
+        }
+    }
+    .all-events {
+        font-size: 14px;
+        margin-left: 25%;
+        .lance {
+          width: 60px;
+          height: 60px;
+        }
+    }
+}

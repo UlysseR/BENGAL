@@ -1,18 +1,32 @@
-import React from 'react';
-import chat from '../media/illustration/chat.svg';
-import lance from '../media/illustration/lance.svg';
+import React from "react";
+import chat from "../media/illustration/chat.svg";
+import lance from "../media/illustration/lance.svg";
+import ReactFloaterJs from "react-floaterjs";
 
 const Video = () => {
-    return (
-        <>
-            <article className="nosvid">
-                <div className="letexte">
-                    <h1>Nos Vidéos</h1>
-                    <p>Retrouvez toutes nos dernières vidéos sur notre chaîne <br></br>YouTube ici :</p>
-                    <a className="button" href="https://www.youtube.com/" target="_blank"><p>voir la chaîne</p><img className="diago" src={lance}></img></a>
-                </div>
-                <img className="chat" src={chat} alt=""></img>
-            </article>
+  return (
+    <>
+      <div className="container-top-video">
+        <ReactFloaterJs>
+          <div data-aos="fade-right" data-aos-delay="200" className="title-top">
+            Nos Vidéos
+            <div className="sous-titre-video">
+              Retrouvez toutes nos dernières vidéos sur notre chaîne YouTube ici
+              :
+            </div>
+            <div data-aos="fade" className="show-more-video">
+              VOIR PLUS <img src={lance} alt="" />
+            </div>
+          </div>
+          <img
+            data-aos="fade-left"
+            data-aos-delay="200"
+            className="img-top-video"
+            src={chat}
+          ></img>
+        </ReactFloaterJs>
+      </div>
+      {/* </div>
             <article className="vid">
                 <h2>Dernière vidéo</h2>
                 <iframe></iframe>
@@ -29,9 +43,9 @@ const Video = () => {
                     <div className="vid6"><h3>Titre de la vidéo</h3></div>
                 </div>
                 <div className="voir">voir plus<img classname="plus" src={lance} alt=""></img></div>
-            </article>
-        </>
-    );
+            </article> */}
+    </>
+  );
 };
 
 export default Video;

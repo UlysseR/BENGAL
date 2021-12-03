@@ -56,6 +56,9 @@
 }
 
 .p-concept {
+  font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
     margin-top: 200px;
     position: absolute;
 }
@@ -90,52 +93,26 @@
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 433px) {
   .container-concept {
-    margin-top: -30px;
+    margin-top: 200%;
   }
   .concept-title {
-    font-size: 28px;
+    margin-left: 5%;
   }
   .circle {
-    width: 191px;
-    height: 24px;
+    margin-left: 5%;
   }
-  .concept-p {
-    margin-top: -20px;
-    width: 315px;
-    height: 146px;
-    font-size: 12px;
-  }
-  .more {
-    width: 83px;
-    height: 22px;
-  }
-  .quote {
-    margin-top: 120px;
-    margin-left: 41px;
+  .title-concept {
     text-align: center;
-    width: 264px;
-    height: 36px;
-    font-size: 16px;
+    width: 315px;
+    margin-left: -2%;
   }
-  .fa-quote-left {
-    margin-left: 10px;
-    transform: translateY(-140%);
-    color: #3b51d1;
-    -webkit-transform: translateY(-140%);
-    -moz-transform: translateY(-140%);
-    -ms-transform: translateY(-140%);
-    -o-transform: translateY(-140%);
-  }
-  .fa-quote-right {
-    margin-left: -10px;
-    transform: translateY(140%);
-    -webkit-transform: translateY(140%);
-    -moz-transform: translateY(140%);
-    -ms-transform: translateY(140%);
-    -o-transform: translateY(140%);
-  }
+  .p-concept{
+    width: 315px;
+    margin-top: 70%;
+    text-align: left;
+  } 
 }
 
 @media only screen and (max-width: 1440px) {
