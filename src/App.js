@@ -5,6 +5,7 @@ import Evenements from './Page/Evenement';
 import Video from'./Page/Video';
 import Cg from './Page/Cg';
 import Ressources from './Page/Ressources';
+import Landing from './Page/Landing';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Route path="/video" exact component={Video} />
         <Route path="/ressources" exact component={Ressources}/>
         <Route path="/conditiongeneral" exact component={Cg}/>
+        <Route path="/landing" exact component={Landing}/>
+
       </Switch>
     </BrowserRouter>
       
