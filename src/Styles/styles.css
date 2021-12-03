@@ -299,7 +299,6 @@ p {
 @media only screen and (max-width: 1440px) {
   .scroll-down {
     margin-top: 45%;
-    margin-left: 20%;
   }
   .container {
     margin-top: -100px;
