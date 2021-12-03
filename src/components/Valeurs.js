@@ -18,7 +18,6 @@ const Valeurs = () => {
                 <div><img className="logo-n" src={logon}></img></div>
                 <div className="valeurs-title">Nos valeurs</div>
             </div>
-
             <div className="grid-valeurs">
                 <ReactFloaterJs>
                 <div data-aos="fade-right"className="engagement">

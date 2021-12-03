@@ -566,7 +566,8 @@ p {
   .p-concept {
     width: 315px;
     margin-top: 70%;
-    text-align: left;
+    margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -1269,6 +1270,7 @@ i {
     margin-top: 15%;
     margin-left: 20%;
     width: 270px;
+    overflow: hidden;
     height: 370px;
   }
   .developper h2 {
@@ -1290,7 +1292,6 @@ i {
     width: 450px;
     height: 325px;
     margin-left: -100px;
-    overflow: hidden;
   }
   .connaitre {
     margin-left: 20%;
@@ -1449,6 +1450,10 @@ i {
   margin-left: 50px;
 }
 
+.bug {
+  display: none;
+}
+
 @media only screen and (min-width: 2560px) {
   .valeurs-title {
     font-size: 50px;
@@ -1474,12 +1479,24 @@ i {
   .container-valeurs {
     overflow: hidden;
     margin-top: 5%;
+    background: transparent;
+  }
+  .logo-n {
+    position: absolute;
+  }
+  .bug {
+    display: block;
+    width: 50%;
+    height: 100px;
   }
   .valeurs-title {
+    height: 100px;
+    position: relative;
     margin-left: 10%;
   }
   .grid-valeurs {
-    margin-top: 40%;
+    background: transparent !important;
+    margin-top: 20%;
     -ms-grid-columns: auto;
         grid-template-columns: auto;
     margin-left: 30%;
@@ -1493,6 +1510,9 @@ i {
   }
   .pragmatisme .grid-title .grid-p {
     margin-left: -20%;
+  }
+  .engagement {
+    background: transparent;
   }
 }
 
@@ -1564,7 +1584,7 @@ i {
     margin-left: -20%;
   }
   .events-content {
-    overflow: hidden;
+    width: 100%;
   }
   .events-content p {
     margin-left: -2%;

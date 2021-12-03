@@ -84,6 +84,9 @@
     margin-left: 50px;
   }
 }
+.bug {
+  display: none;
+}
 
 // .container-1 {
 //   position: relative;
@@ -173,12 +176,24 @@
   .container-valeurs {
     overflow: hidden;
     margin-top: 5%;
+    background: transparent;
+  }
+  .logo-n {
+position: absolute;
+  }
+  .bug {
+    display: block;
+    width: 50%;
+    height: 100px;
   }
   .valeurs-title {
+    height: 100px;
+    position: relative;
     margin-left: 10%;
   }
   .grid-valeurs {
-    margin-top: 40%;
+    background: transparent !important;
+    margin-top: 20%;
     grid-template-columns: auto;
     margin-left: 30%;
   }
@@ -193,5 +208,8 @@
         margin-left: -20%;
       }
     }
+  }
+  .engagement {
+    background: transparent;
   }
 }
