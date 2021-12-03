@@ -512,6 +512,26 @@ p {
   height: 375px;
 }
 
+.title-concept {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  position: absolute;
+  color: #000000;
+  margin-top: 150px;
+}
+
+.concept-content {
+  width: 581px;
+}
+
+.p-concept {
+  margin-top: 200px;
+  position: absolute;
+}
+
 @media only screen and (min-width: 2560px) {
   .container-concept {
     margin-top: 0;
@@ -605,8 +625,7 @@ p {
   display: -ms-grid;
   display: grid;
   gap: 150px 0px;
-      grid-template-areas: "grid-logo grid-news"
- "grid-nav grid-medias";
+      grid-template-areas: "grid-logo grid-news" "grid-nav grid-medias";
 }
 
 .grid-logo {
