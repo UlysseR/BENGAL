@@ -984,6 +984,7 @@ h1 {
 .developper {
   width: 315px;
   height: 550px;
+  margin-top: -10px;
   margin-left: 20%;
   background-color: #3B51D1;
   color: #FFFAF4;
