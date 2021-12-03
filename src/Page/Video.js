@@ -5,11 +5,11 @@ import Video from '../components/Video';
 
 const Videos = () => {
     return (
-        <div>
+        <>
             <Header/>
             <Video/>
             <Footer/>
-        </div>
+        </>
     );
 };
 
