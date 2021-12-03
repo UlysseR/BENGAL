@@ -3,7 +3,7 @@
   margin-top: 300px;
   margin-left: 20%;
   display: grid;
-  gap: 150px 0px;
+  gap: 150px 0px; 
   grid-template-areas:
     "grid-logo grid-news"
     "grid-nav grid-medias";
@@ -153,7 +153,7 @@ select:focus {
 @media only screen and (max-width: 1440px) {
   .grid-footer {
     margin-left: 16%;
-    margin-top: 200px;
+    
   }
   .text-footer {
     margin-left: -50px;
