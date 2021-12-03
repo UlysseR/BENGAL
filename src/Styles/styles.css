@@ -3,7 +3,6 @@
   margin: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #FFFAF4;
 }
 
 html {
@@ -606,7 +605,8 @@ p {
   display: -ms-grid;
   display: grid;
   gap: 150px 0px;
-      grid-template-areas: "grid-logo grid-news" "grid-nav grid-medias";
+      grid-template-areas: "grid-logo grid-news"
+ "grid-nav grid-medias";
 }
 
 .grid-logo {
