@@ -7,7 +7,6 @@ a {
 }
 
 .header {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -16,6 +15,7 @@ a {
 }
 
 .logo {
+    margin-top: 27px;
     height: 40px;
     width: 155px;
 }

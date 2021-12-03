@@ -6,6 +6,7 @@ import img3 from '../media/illustration/3.svg';
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import ReactFloaterJs from 'react-floaterjs';
 
 const Valeurs = () => {
     useEffect(() => {
@@ -19,6 +20,7 @@ const Valeurs = () => {
             </div>
 
             <div className="grid-valeurs">
+                <ReactFloaterJs>
                 <div data-aos="fade-right"className="engagement">
                     <img className="grid-img" src={img1}></img>
                     <div className="grid-title">Engagement :
@@ -27,6 +29,8 @@ const Valeurs = () => {
                         </p>
                     </div>
                 </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
                 <div data-aos="fade-left" data-aos-delay="50" className="accessibilite">
                     <img className="grid-img" src={img2}></img>
                     <div className="grid-title">Accessibilité :
@@ -36,6 +40,8 @@ const Valeurs = () => {
                         </p>
                     </div>
                 </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
                 <div data-aos="fade-right" data-aos-delay="70" className="pragmatisme">
                     <img className="grid-img" src={img3}></img>
                     <div className="grid-title">Pragmatisme :
@@ -45,6 +51,7 @@ const Valeurs = () => {
                         </p>
                     </div>
                 </div>
+                </ReactFloaterJs>
             </div>
 
 
