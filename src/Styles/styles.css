@@ -444,6 +444,7 @@ p {
   .video-content {
     width: 315px;
     margin-top: 50%;
+    text-align: center;
   }
   .video {
     margin-top: 90%;
@@ -1288,7 +1289,7 @@ i {
     margin-top: -60px;
     width: 450px;
     height: 325px;
-    margin-left: -110px;
+    margin-left: -100px;
     overflow: hidden;
   }
   .connaitre {
@@ -1471,6 +1472,7 @@ i {
 
 @media only screen and (max-width: 433px) {
   .container-valeurs {
+    overflow: hidden;
     margin-top: 5%;
   }
   .valeurs-title {
@@ -1557,8 +1559,12 @@ i {
     overflow: hidden;
   }
   .events-title {
+    overflow: hidden;
     text-align: center;
     margin-left: -20%;
+  }
+  .events-content {
+    overflow: hidden;
   }
   .events-content p {
     margin-left: -2%;
