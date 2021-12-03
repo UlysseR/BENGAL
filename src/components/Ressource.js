@@ -7,6 +7,7 @@ import lance from '../media/SVG/lance-toi.svg'
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import ReactFloaterJs from 'react-floaterjs';
 
 const Ressource = () => {
     useEffect(() => {
@@ -17,7 +18,7 @@ const Ressource = () => {
             <section id="ressources"className="ressource">
                 <div data-aos="fade" className="container-ressources">
                     <div ><img className="soleil" src={soleil}></img></div>
-                    <div className="ressources-title">Toutes les clefs pour entreprendre</div>
+                    <div className="ressources-titre">Toutes les clefs pour entreprendre</div>
                 </div>
                 <article data-aos="fade-up" className="developper">
                     <h2>Développer son réseau</h2>

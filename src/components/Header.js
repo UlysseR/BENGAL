@@ -10,8 +10,10 @@ const Header = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <header data-aos="fade" data-aos-delay="1200" className="header">
-            <img src={logo} alt="Logo de Tremplin" className="logo" />
+        <header data-aos="fade" data-aos-delay="600" className="header">
+        <NavLink exact to="/"> 
+          <img src={logo} alt="Logo de Tremplin" className="logo" />
+          </NavLink>
             <img className="hamburger" src={hamburger} ></img>
             <nav className="menu">
                 <NavLink exact to="/video">

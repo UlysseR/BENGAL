@@ -1,0 +1,111 @@
+.container-top {
+    margin-left: 10%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  
+  .title-top {
+    position: absolute;
+    width: 635px;
+    height: 45px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 30px;
+    text-align: center;
+    color: #353535;
+  }
+  
+  .img-top {
+    margin-left: 60%;
+    margin-top: 5%;
+    background: transparent;
+  }
+  
+  .filter {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #353535;
+    margin-top: 120px;
+    position: absolute;
+    align-items: center;
+    display: flex;
+  }
+  
+.events{
+
+
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 100px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+.event1, .event2, .event3, .event4, .event5, .event6{
+
+    background-color: #D65D38;
+    height: 500px;
+    width: 100%;
+    margin-top: 92px;
+    position: relative;
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.event-title{
+
+    margin-left: 326px;
+    background: transparent;
+    font-family: $font1;
+    text-transform : uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+
+}
+
+.event-desc{
+    text-align: justify;
+    background: transparent;
+    font-family: $font1;
+    font-size: 26px;
+    color: white;
+    font-weight: normal;
+    width: 100%;
+    background: transparent;
+    margin-right: 30px;
+}
+
+.event-bottom {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background: transparent;
+}
+
+.event-date{
+
+    background-color: #353535;
+    font-size: 26px;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: $font1;
+}
