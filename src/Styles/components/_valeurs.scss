@@ -68,13 +68,14 @@
   font-size: 25px;
 }
 
-.grid-p {
+.grid-pp {
   font-style: normal;
   background: transparent;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   width: 320px;
   line-height: 25px;
+  color: #353535;
   font-weight: 400;
 }
 
@@ -164,48 +165,59 @@
 }
 
 @media only screen and (max-width: 1440px) {
-.container-valeurs {
-  margin-left: 15%;
-}
-.grid-valeurs {
-  margin-left: 15%;
-}
+  .container-valeurs {
+    margin-left: 15%;
+  }
+  .grid-valeurs {
+    margin-left: 15%;
+  }
 }
 
 @media only screen and (max-width: 433px) {
   .container-valeurs {
     overflow: hidden;
-    margin-top: 5%;
-    background: transparent;
+    margin-top: 50%;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   .logo-n {
-position: absolute;
+    margin-top: -50px;
+    position: absolute;
   }
-  .bug {
-    display: block;
-    width: 50%;
-    height: 100px;
-  }
+
   .valeurs-title {
+    width: 100%;
+    display: inline-block;
     height: 100px;
     position: relative;
-    margin-left: 10%;
   }
   .grid-valeurs {
     background: transparent !important;
     margin-top: 20%;
     grid-template-columns: auto;
-    margin-left: 30%;
   }
-  .grid-p {
+  .grid-title {
     text-align: center;
-    margin-left: -25%;
+    width: 90%;
+  }
+  .grid-img{
+    margin: auto;
+  }
+  .grid-pp {
+    width: 80%;
+    text-align: center;
+  }
+  .accessibilite {
+    margin-top: 20%;
   }
   .pragmatisme {
+    margin-top: 20%;
     .grid-title {
       margin-left: 0;
       .grid-p {
-        margin-left: -20%;
       }
     }
   }

@@ -34,6 +34,10 @@
     width: 463px;
     height: 289px;
     background: #8d8989;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 2560px) {
@@ -86,20 +90,27 @@
 
 @media only screen and (max-width: 433px) {
     .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
     }
     .video-title {
-        margin-left: -15%;
+        width: 90%;
+        margin-left: auto;
         text-align: center;
     }
     .video-content {
-        width: 315px;
-        margin-top: 50%;
+        width: 90%;
+        margin-top: 90%;
         text-align: center;
     }
     .video {
-        margin-top: 90%;
-        margin-left: 0;
-        width: 315px;
-        height: 315px;
+        background: transparent;
+        text-align: center;
+        margin: auto;
+        margin-top: 50%;
+        width: auto;
     }
 }

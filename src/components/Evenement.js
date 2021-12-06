@@ -1,69 +1,108 @@
 import React from 'react';
+import Event1 from "../media/events/event1.svg";
+import Event2 from "../media/events/event2.svg";
+import Event3 from "../media/events/event3.svg";
+import Event4 from "../media/events/event4.svg";
+import Event5 from "../media/events/event5.svg";
+import Event6 from "../media/events/event6.svg";
+import Baloon from "../media/illustration/baloon.svg";
+import Search from "../media/SVG/search.svg";
+import Date from "../media/SVG/date.svg";
+import ReactFloaterJs from "react-floaterjs";
+import Lance from "../media/SVG/lance.svg";
 
 const Evenement = () => {
     return (
-        <div className="events">
-            <div className="event1">
-                <h3 className="event-title">En Ligne</h3>
-                <div className="event-bottom">
-                    <span className="event-desc">Webinar : “Quoi de neuf pour cette nouvelle année ?”</span>
-                    <span className="event-date">
-                        5 <br></br>
-                        JAN
-                    </span>
-                </div>
+        <>
+           <div className="container-top">
+        <ReactFloaterJs>
+          <div data-aos="fade-right" data-aos-delay="200" className="title-top">
+            Nos Evenements
+            <div className="sous-titre-video">
+            Retrouvez tous nos évènement pour commencer à vous créer un réseau, parler de vos projets et échanger avec d’autres futurs entrepreneurs.
             </div>
-            <div className="event2">
-                <h3 className="event-title">Paris</h3>
-                <div className="event-bottom">
-                <span className="event-desc">Café-débat : “Quel chef d’entreprise dois-je être ?”</span>
-                    <span className="event-date">
-                        13 <br></br>
-                        JAN
-                    </span>
-                </div>
-            </div>
-            <div className="event3">
-                <h3 className="event-title">PARIS</h3>
-                <div className="event-bottom">
-                <span className="event-desc">Exposition : “Les grands hommes de l’entrepreneuriat”</span>
-                    <div className="event-date">
-                        5 <br></br>
-                        MAR
-                    </div>
-                </div>
-            </div>
-            <div className="event4">
-                <h3 className="event-title">En Ligne</h3>
-                <div className="event-bottom">
-                <span className="event-desc">Webinar : “Pourquoi je n’ai pas écouté les autres ?”</span>
-                    <div className="event-date">
-                        5 <br></br>
-                        MAR
-                    </div>
-                </div>
-            </div>
-            <div className="event5">
-                <h3 className="event-title">AIX-EN-PROVENCE</h3>
-                <div className="event-bottom">
-                <span className="event-desc">Soirée : “Rencontre Tremplin annuelle”</span>
-                    <div className="event-date">
-                        12 <br></br>
-                        AVR
-                    </div>
-                </div>
-            </div>
-            <div className="event6">
-                <h3 className="event-title">En Ligne</h3>
-                <div className="event-bottom">
-                <span className="event-desc">Webinar : “Intégrer l’écologie dans mes projets.”</span>
-                    <div className="event-date">
-                        25 <br></br>
-                        MAI
-                    </div>
-                </div>
-            </div>
+          </div>
+          <img
+            data-aos="fade-left"
+            data-aos-delay="200"
+            className="img-top"
+            src={Baloon}
+          ></img>
+        </ReactFloaterJs>
+        <div className="mail" data-aos="fade" data-aos-delay="400">
+          <input
+            className="form-mail"
+            type="mail"
+            placeholder="Rechercher "
+            id="email"
+            size="37"
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="send-mail" src={Search}></img>
         </div>
+        <div className="filter" data-aos="fade" data-aos-delay="400">
+          Trier par : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+          <img className="send-mail" src={Date}></img>{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vues
+        </div>
+      </div>
+
+            <div className="event-grid">
+                <ReactFloaterJs>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-delay="350"
+                        className="event-1"
+                    >
+                        <img src={Event1} alt="" />
+                    </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
+                    <div
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        className="event-2" >
+                        <img src={Event2} alt="" />
+                    </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
+                <div
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        className="event-3" >
+                        <img src={Event3} alt="" />
+                    </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
+                <div
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        className="event-4" >
+                        <img src={Event4} alt="" />
+                    </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
+                <div
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        className="event-5" >
+                        <img src={Event5} alt="" />
+                    </div>
+                </ReactFloaterJs>
+                <ReactFloaterJs>
+                <div
+                        data-aos="fade-right"
+                        data-aos-delay="200"
+                        className="event-6" >
+                        <img src={Event6} alt="" />
+                    </div>
+                </ReactFloaterJs>
+            </div>
+            <div data-aos="fade" className="show-more-events">
+                VOIR PLUS <img src={Lance} alt="" />
+            </div>
+
+        </>
     );
 };
 

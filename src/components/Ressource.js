@@ -5,6 +5,7 @@ import marteau from '../media/illustration/marteau.png'
 import kichta from '../media/illustration/kichta.png'
 import lance from '../media/SVG/lance-toi.svg'
 import { useEffect } from "react";
+import { NavLink } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import ReactFloaterJs from 'react-floaterjs';
@@ -15,7 +16,7 @@ const Ressource = () => {
     }, []);
     return (
         <>
-            <section id="ressources"className="ressource">
+            <section id="ressources" className="ressource">
                 <div data-aos="fade" className="container-ressources">
                     <div ><img className="soleil" src={soleil}></img></div>
                     <div className="ressources-titre">Toutes les clefs pour entreprendre</div>
@@ -47,9 +48,10 @@ const Ressource = () => {
                 </article>
 
 
-            </section>                
-            <div data-aos="fade"  className="all-ressources">TOUTES LES RESSOURCES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img className="lance" src={lance}></img></div>
-
+            </section>
+            <NavLink exact to="/ressources">
+                <div data-aos="fade" className="all-ressources">TOUTES LES RESSOURCES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img className="lance" src={lance}></img></div>
+            </NavLink>
         </>
     );
 };

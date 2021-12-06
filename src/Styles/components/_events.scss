@@ -2,11 +2,11 @@
     margin-left: 20%;
     position: relative;
     height: 500px;
-    margin-top: 150px;
+    margin-top: 15%;
     color: #353535;
     background-color: transparent !important;
     .events-content {
-        margin-top: 150px;
+        margin-top: 100px;
         font-family: Helvetica Neue;
         font-style: normal;
         font-weight: normal;
@@ -15,6 +15,7 @@
         position: absolute;
         width: 542px;
         height: 143px;
+        margin-left: -17px;
     }
 }
 
@@ -27,7 +28,7 @@
 }
 
 .all-events {
-    margin-top: -150px;
+    margin-top: 15%;
     font-family: Helvetica Neue;
     font-style: normal;
     font-weight: 200;
@@ -39,6 +40,16 @@
     display: flex;
 }
 
+.event-card {
+    position: absolute;
+    margin-top: 15%;
+}
+.event-card2 {
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 15%;
+}
+
 @media only screen and (max-width: 1440px) {
     .events-container {
         margin-top: 250px;
@@ -46,34 +57,60 @@
     }
     .all-events {
         margin-left: 15%;
-        margin-top: -170px;
     }
 }
 
 @media only screen and (max-width: 433px) {
     .events-container {
+        margin: auto;
+        position: relative;
         margin-top: 80%;
-        overflow: hidden;
-    }
-    .events-title {
-        overflow: hidden;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        margin-left: -20%;
-    }
-    .events-content {
-        width: 100%;
-        p {
-            margin-left: -2%;
-            width: 315px;
-            text-align: center;
+        .events-title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+        }
+        .events-content {
+            margin: auto;
+            position: relative;
+            margin-top: 10%;
+            width: 100%;
+            p {
+                margin: auto;
+                width: 315px;
+                text-align: center;
+            }
+        }
+        .event-card {
+            position: relative;
+            margin: auto;
+            height: 100%;
+            img {
+                margin: auto;
+                width: 300px;
+            }
+        }
+        .event-card2 {
+
+            margin: auto;
+            height: 100%;
+            img {  
+                margin: auto;
+                margin-top: 150%;
+                width: 300px;
+            }
         }
     }
+ 
     .all-events {
         font-size: 14px;
         margin-left: 25%;
         .lance {
-          width: 60px;
-          height: 60px;
+            width: 60px;
+            height: 60px;
         }
     }
 }

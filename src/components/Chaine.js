@@ -1,5 +1,6 @@
 import React from 'react';
 import lance from '../media/SVG/lance-toi.svg'
+import Video1 from '../media/SVG/video1.svg'
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -17,7 +18,7 @@ const Chaine = () => {
                     Ici tu peux retrouver toutes les ressouces, outils et état d’esprit à acquérir pour commencer dans l’entrepreneuriat.
                     Une aide personnalisé pas à pas qui s’applique à toute sorte d’entrepreneuriat pour tout type de futurs entrepreneurs.
                     Sous formats de podcasts, talks, tutos... tu trouveras tout ce qu’il te faut sur la chaine Tremplin.                                
-                    <div className="video"></div>    
+                    <div className="video"><img src={Video1}></img></div>    
                 </div>
             </div>
         </>

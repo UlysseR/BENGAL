@@ -4,6 +4,7 @@
     background-color: transparent !important;
     width: 1032px;
     margin: auto;
+    margin-top: -5%;
 }
 .header-text {
     transition: 0.6s;
@@ -43,8 +44,14 @@
 
 .title-2 {
     font-size: 70px;
-    font-family: "Denton 500";
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    /* or 140% */
     background: transparent;
+    
+    color: #353535;
 }
 
 .title-3 {
