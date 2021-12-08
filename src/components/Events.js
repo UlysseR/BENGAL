@@ -22,17 +22,17 @@ const Events = () => {
                 </div>
                 <ReactFloaterJs>
                     <div className="event-card">
-                        <img src={Event1}></img>
+                        <img src={Event1} alt="Evenement 1"></img>
                     </div>
                     <div className="event-card2">
-                        <img src={Event2}></img>
+                        <img src={Event2} alt="Evenement 2"></img>
                     </div>
                 </ReactFloaterJs>
             </div>
 
             <div className="container-all-events">
                 <div data-aos="fade-up" className="all-events">TOUS LES EVENEMENTS <NavLink exact to="/evenements">
-                    <img className="lance" src={lance}></img></NavLink>
+                    <img className="lance" src={lance} alt="Bouton vers tous les evenements"></img></NavLink>
                 </div>
 
             </div>

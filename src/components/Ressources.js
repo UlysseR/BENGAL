@@ -34,6 +34,7 @@ const Ressources = () => {
             data-aos-delay="200"
             className="img-top"
             src={Books}
+            alt="Pile de livre illustrant nos ressources"
           ></img>
         </ReactFloaterJs>
         <div className="mail" data-aos="fade" data-aos-delay="400">
@@ -45,7 +46,7 @@ const Ressources = () => {
             size="37"
           />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <img className="send-mail" src={Search}></img>
+          <img className="send-mail" src={Search} alt="Rechercher une ressources"></img>
         </div>
         <div className="filter" data-aos="fade" data-aos-delay="400">
           Trier par : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -71,7 +72,7 @@ const Ressources = () => {
             </div>
 
             <div className="ressource-bottom">
-              <img className="ress-img" src={Monkey} />
+              <img className="ress-img" src={Monkey} alt="Connais-toi toi même." />
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
@@ -96,11 +97,11 @@ const Ressources = () => {
               </p>
             </div>
             <div className="ressource-bottom">
-              <img className="ress-img" src={Virus} />
+              <img className="ress-img" src={Virus} alt=" Covid et entrepreneuriat : Bilan."/>
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
-                  260 <img className="ThumbUp" src={ThumbUp} alt="" />
+                  260 <img className="ThumbUp" src={ThumbUp} alt="Pouce en l'air" />
                 </span>
               </div>
             </div>
@@ -116,11 +117,11 @@ const Ressources = () => {
               </p>
             </div>
             <div className="ressource-bottom">
-              <img className="ress-img" src={Note} />
+              <img className="ress-img" src={Note} alt="6 aides pour lancer sa micro-entreprise."/>
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
-                  260 <img className="ThumbUp" src={ThumbUp} alt="" />
+                  260 <img className="ThumbUp" src={ThumbUp} alt="Pouce en l'air" />
                 </span>
               </div>
             </div>
@@ -136,11 +137,11 @@ const Ressources = () => {
               </p>
             </div>
             <div className="ressource-bottom">
-              <img className="ress-img" src={Brain} />
+              <img className="ress-img" src={Brain} alt="Mindset de l’entrepreneur."/>
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
-                  260 <img className="ThumbUp" src={ThumbUp} alt="" />
+                  260 <img className="ThumbUp" src={ThumbUp} alt="Pouce en l'air" />
                 </span>
               </div>
             </div>
@@ -160,11 +161,11 @@ const Ressources = () => {
               </p>
             </div>
             <div className="ressource-bottom">
-              <img className="ress-img" src={Hammer} />
+              <img className="ress-img" src={Hammer} alt=" Statut juridique : Pour entreprendre seul et sans sous."/>
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
-                  260 <img className="ThumbUp" src={ThumbUp} alt="" />
+                  260 <img className="ThumbUp" src={ThumbUp} alt="Pouce en l'air" />
                 </span>
               </div>
             </div>
@@ -185,20 +186,16 @@ const Ressources = () => {
               </p>
             </div>
             <div className="ressource-bottom">
-              <img className="ress-img" src={People} />
+              <img className="ress-img" src={People} alt="Les différents types d’entrepreneuriats"/>
               <div className="ress-txt">
                 21 nov 2021{" "}
                 <span className="likes">
-                  260 <img className="ThumbUp" src={ThumbUp} alt="" />
+                  260 <img className="ThumbUp" src={ThumbUp} alt="Pouce en l'air" />
                 </span>
               </div>
             </div>
           </div>
         </ReactFloaterJs>
-      </div>
-
-      <div data-aos="fade" className="show-more">
-        VOIR PLUS <img src={Lance} alt="" />
       </div>
     </>
   );

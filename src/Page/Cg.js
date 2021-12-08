@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from '../components/Header';
 
 
 const Cg = () => {
     return (
+        <>
+        <Header />
         <div className="cg">
             <h2>Définitions</h2>
                 <p><b>Client :</b> tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.
@@ -27,8 +30,6 @@ const Cg = () => {
                 <strong>Hébergeur</strong> : Vercel – 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis ss ss privacy@vercel.com
                 <strong>Délégué à la protection des données</strong> : Florian RAFAILLAC – rfcflorian@gmail.com
                 </p>
-
-                <div ng-bind-html="linkHTML"><p>Ce modèle de mentions légales est proposé par le <a href="https://fr.orson.io/1371/generateur-mentions-legales" title="générateur gratuit offert par Orson.io">générateur gratuit offert par Orson.io</a></p></div>
 
 
 
@@ -213,6 +214,7 @@ const Cg = () => {
                 Tout litige en relation avec l’utilisation du site <a href="https://www.mon-tremplin.fr/">https://www.mon-tremplin.fr/</a> est soumis au droit français. 
                 En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris</p>
         </div>
+        </>
     );
 };
 

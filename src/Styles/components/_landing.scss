@@ -254,7 +254,7 @@
     }
 }
 
-@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-width: 428px) {
     .container-landing {
         width: 100%;
     }
@@ -517,4 +517,8 @@
         margin-top: 750%;
         margin-left: 0;
     }
+}
+
+.container-burger {
+    display: none;
 }

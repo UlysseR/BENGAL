@@ -14,7 +14,7 @@ const Concept = () => {
         <div id="concept" className="circle"></div>
         <div className="concept-title">Notre concept</div>
         <div className="lamp2">
-          <img src={lamp2} alt="" />
+          <img src={lamp2} alt="Ampoule scintillante" />
         </div>
           <div  className="title-concept">Faciliter l’accessibilité à l’entrepreneuriat :</div>
           <div data-aos="fade-up" data-aos-delay="200" className="p-concept">

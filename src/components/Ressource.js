@@ -28,7 +28,7 @@ const Ressource = () => {
                         Ce dicton est particulièrement vrai quand on parle d’entrepreneuriat.
                         Le réseau est une clé de la ...
                     </p>
-                    <img className="main" src={main}></img>
+                    <img className="main" src={main} alt="Illustration développer son réseau"></img>
                 </article>
                 <article data-aos="fade-up" data-aos-delay="50" className="connaitre">
                     <h2>Connaître les outils légaux</h2>
@@ -36,7 +36,7 @@ const Ressource = () => {
                         Pour se lancer, il faut passer par étapes indispensables, mais ce n’est pas parce qu’elles sont
                         indispensables qu’elles sont compliqué. On vous guide à travers <br></br>...
                     </p>
-                    <img className="marteau" src={marteau}></img>
+                    <img className="marteau" src={marteau} alt="Illutsration connaître les outils légaux"></img>
                 </article>
                 <article data-aos="fade-up" data-aos-delay="15" className="aide">
                     <h2>Des aides pour moi ?</h2>
@@ -44,13 +44,13 @@ const Ressource = () => {
                         Il est souvent difficile de savoir quelles aides sont disponibles pour monter une entreprise.
                         On vous fait un méga résumé de tout ce qui pourrait vous faciliter ...
                     </p>
-                    <img className="kichta" src={kichta}></img>
+                    <img className="kichta" src={kichta} alt="Illustration des aides pour moi ?"></img>
                 </article>
 
 
             </section>
             <NavLink exact to="/ressources">
-                <div data-aos="fade" className="all-ressources">TOUTES LES RESSOURCES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img className="lance" src={lance}></img></div>
+                <div data-aos="fade" className="all-ressources">TOUTES LES RESSOURCES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img className="lance" src={lance} alt="Boutton vers toutes les ressources"></img></div>
             </NavLink>
         </>
     );

@@ -27,6 +27,7 @@ const Evenement = () => {
                         data-aos-delay="200"
                         className="img-top"
                         src={Baloon}
+                        alt="Ballons s'envolant vers l'entrepreunariat"
                     ></img>
                 </ReactFloaterJs>
                 <div className="mail" data-aos="fade" data-aos-delay="400">
@@ -38,7 +39,7 @@ const Evenement = () => {
                         size="37"
                     />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <img className="send-mail" src={Search}></img>
+                    <img className="send-mail" src={Search} alt="rechercher un evenement"></img>
                 </div>
                 <div className="filter" data-aos="fade" data-aos-delay="400">
                     Trier par : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -54,7 +55,7 @@ const Evenement = () => {
                         data-aos-delay="350"
                         className="event-1"
                     >
-                        <img src={Event1} alt="" />
+                        <img src={Event1} alt="Evenement1" />
                     </div>
                 </ReactFloaterJs>
                 <ReactFloaterJs>
@@ -62,7 +63,7 @@ const Evenement = () => {
                         data-aos="fade-right"
                         data-aos-delay="200"
                         className="event-2" >
-                        <img src={Event2} alt="" />
+                        <img src={Event2} alt="Evenement2" />
                     </div>
                 </ReactFloaterJs>
                 <ReactFloaterJs>
@@ -70,7 +71,7 @@ const Evenement = () => {
                         data-aos="fade-right"
                         data-aos-delay="200"
                         className="event-3" >
-                        <img src={Event3} alt="" />
+                        <img src={Event3} alt="Evenement3" />
                     </div>
                 </ReactFloaterJs>
                 <ReactFloaterJs>
@@ -78,7 +79,7 @@ const Evenement = () => {
                         data-aos="fade-right"
                         data-aos-delay="200"
                         className="event-4" >
-                        <img src={Event4} alt="" />
+                        <img src={Event4} alt="Evenement4" />
                     </div>
                 </ReactFloaterJs>
                 <ReactFloaterJs>
@@ -86,7 +87,7 @@ const Evenement = () => {
                         data-aos="fade-right"
                         data-aos-delay="200"
                         className="event-5" >
-                        <img src={Event5} alt="" />
+                        <img src={Event5} alt="Evenement5" />
                     </div>
                 </ReactFloaterJs>
                 <ReactFloaterJs>
@@ -94,14 +95,10 @@ const Evenement = () => {
                         data-aos="fade-right"
                         data-aos-delay="200"
                         className="event-6" >
-                        <img src={Event6} alt="" />
+                        <img src={Event6} alt="Evenement6" />
                     </div>
                 </ReactFloaterJs>
             </div>
-            <div data-aos="fade" className="show-more-events">
-                VOIR PLUS <img src={Lance} alt="" />
-            </div>
-
         </>
     );
 };

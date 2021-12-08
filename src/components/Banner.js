@@ -21,7 +21,7 @@ const Banner = () => {
         <> <FadeInLeftDiv>
             <ReactFloaterJs>
             <div className="container">
-                <img className="header-img" src={headerimg} alt="header-img" id="img-head"></img>
+                <img className="header-img" src={headerimg} alt="sportif de haut niveau" id="img-head"></img>
                 <div className="header-text" id="text">
                     <p className="title-1">TU VEUX ENTREPRENDRE ?</p>
                     <p className="title-2">FONCE,</p>
@@ -29,7 +29,7 @@ const Banner = () => {
                 </div>
             </div></ReactFloaterJs></FadeInLeftDiv>
             <div data-aos="fade" data-aos-delay="2500" className="container-scroll">
-              <a href="#concept"><img className="scroll-down" src={scrolldown}></img></a>  
+              <a href="#concept"><img className="scroll-down" src={scrolldown} alt="bouton scroll down"></img></a>  
             </div>
 
 

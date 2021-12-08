@@ -18,7 +18,7 @@ const Chaine = () => {
                     Ici tu peux retrouver toutes les ressouces, outils et état d’esprit à acquérir pour commencer dans l’entrepreneuriat.
                     Une aide personnalisé pas à pas qui s’applique à toute sorte d’entrepreneuriat pour tout type de futurs entrepreneurs.
                     Sous formats de podcasts, talks, tutos... tu trouveras tout ce qu’il te faut sur la chaine Tremplin.                                
-                    <div className="video"><img src={Video1}></img></div>    
+                    <div className="video"><img src={Video1} alt="Homme s'intérrogeant"></img></div>    
                 </div>
             </div>
         </>

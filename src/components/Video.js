@@ -31,7 +31,7 @@ const Video = () => {
               :
             </div>
             <div data-aos="fade" className="show-more-video">
-              VOIR LA CHAINE <img src={lance} alt="" />
+              VOIR LA CHAINE <img src={lance} alt="Voir la chaine youtube" />
             </div>
           </div>
           <img
@@ -39,13 +39,14 @@ const Video = () => {
             data-aos-delay="200"
             className="img-top-video"
             src={chat}
+            alt="Chat surfant sur le web"
           ></img>
         </ReactFloaterJs>
       </div>
 
       <div className="container-video1">
         <div className="last-vid" data-aos="fade-right">Dernière vidéo</div>
-        <img className="last-vid-img" src={LastVid} data-aos="fade-right" ></img>
+        <img className="last-vid-img" src={LastVid} data-aos="fade-right" alt="La dernière video"></img>
         <div className="sous-titre-last-vid" data-aos="fade-up">Entreprendre en partant de rien, est ce possible ?</div>
         {/* search bar */}
         <div className="search-vid" data-aos="fade" data-aos-delay="400">
@@ -57,7 +58,7 @@ const Video = () => {
             size="37"
           />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <img className="send-mail" src={Search}></img>
+          <img className="send-mail" src={Search} alt="Rechercher une video"></img>
         </div>
         <div className="filter" data-aos="fade">
           Trier par : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
@@ -68,34 +69,35 @@ const Video = () => {
 
       <div className="videos-grid">
         <div className="video1"  data-aos="fade-right">
-          <img src={Vid1}></img>
+          <img src={Vid1} alt="Entreprendre en partant de rien..."></img>
           <div className="titre-vid">Entreprendre en partant de rien...</div>
         </div>
         <div className="video2"  data-aos="fade-right" data-aos-delay="150">
-          <img src={Vid2}></img>
+          <img src={Vid2} alt="Comment trouver des fonds pour..."></img>
           <div className="titre-vid">Comment trouver des fonds pour...</div>
         </div>
         <div className="video3" data-aos="fade-right" data-aos-delay="300">
-          <img src={Vid3}></img>
+          <img src={Vid3} alt="5 choses à savoir avant de vous lancer"></img>
           <div className="titre-vid">5 choses à savoir avant de vous lancer</div>
         </div>
         <div className="video4" data-aos="fade-left">
-          <img src={Vid4}></img>
+          <img src={Vid4} alt="Histoire d’entrepreneur : Terry LTAM nous raconte"></img>
           <div className="titre-vid">Histoire d’entrepreneur : Terry LTAM nous raconte</div>
         </div>
         <div className="video5" data-aos="fade-left" data-aos-delay="150">
-          <img src={Vid5}></img>
+          <img src={Vid5} alt="Comment être un bon
+            patron ?"></img>
           <div className="titre-vid">Comment être un bon
             patron ?
           </div>
         </div>
         <div className="video6" data-aos="fade-left"  data-aos-delay="300">
-          <img src={Vid6}></img>
+          <img src={Vid6} alt="Besoin d’aides ? 6 aides pour commencer"></img>
           <div className="titre-vid">Besoin d’aides ? 6 aides pour commencer</div>
         </div>
       </div>
       <div data-aos="fade" className="show-more-vid">
-        VOIR PLUS <img src={Lance} alt="" />
+        VOIR PLUS <img src={Lance} alt="Vers la chaine youtube" />
       </div>
     </>
   );

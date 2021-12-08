@@ -2685,6 +2685,7 @@ select:focus {
 
 @media only screen and (max-width: 1440px) {
   .videos-grid {
+    margin-top: 30% !important;
     height: 100%;
     position: relative;
     display: -ms-grid;
@@ -2750,6 +2751,9 @@ select:focus {
   .video5,
   .video6 {
     margin-top: 15%;
+  }
+  .search-vid {
+    position: absolute;
   }
 }
 
@@ -3154,7 +3158,7 @@ select:focus {
   }
 }
 
-@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-width: 428px) {
   .container-landing {
     width: 100%;
   }
@@ -3421,5 +3425,9 @@ select:focus {
     margin-top: 750%;
     margin-left: 0;
   }
+}
+
+.container-burger {
+  display: none;
 }
 /*# sourceMappingURL=styles.css.map */

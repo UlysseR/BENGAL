@@ -10,6 +10,7 @@ import linkedin from '../media/SVG/linkedin.svg';
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     useEffect(() => {
@@ -18,55 +19,39 @@ const Footer = () => {
     return (
         <>
             <div className="grid-footer">
-                <div data-aos="fade-right"  className="grid-logo">
-                    <img className="news-logo" src={logoNews}></img>
+                <div data-aos="fade-right" className="grid-logo">
+                    <img className="news-logo" src={logoNews} alt="Logo tremplin"></img>
                 </div>
-                <div data-aos="fade-right"  className="grid-news">
+                <div data-aos="fade-right" className="grid-news">
                     <div className="news-title">Inscrivez vous à la Newsletter</div>
                     <div className="mail">
                         <input className="form-mail" type="mail" placeholder="E-mail" id="email" size="37" />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img className="send-mail" src={send}></img>
+                        <img className="send-mail" src={send} alt="Bouton s'inscire à la newsletter"></img>
                     </div>
                 </div>
-                <div data-aos="fade-left"  className="grid-nav">
+                <div data-aos="fade-left" className="grid-nav">
                     <div className="nav-title">Navigation</div>
                     <div className="nav-links">
                         Nos vidéos <br></br>
                         Nos ressources <br></br>
                         Nos events <br></br>
-                        Dossier presse <br></br>
+                        Dossier presse  <br></br>
                     </div>
                 </div>
-                <div data-aos="fade-left"  className="grid-medias">
+                <div data-aos="fade-left" className="grid-medias">
                     <div className="medias-title">Réseaux Sociaux</div>
                     <div className="medias-links">
-                        <a target="_blank" href="https://twitter.com/Tremplin_/with_replies"><img className="medias-img" src={fichier18} alt=""></img></a>
-                        <a target="_blank" href="https://www.tiktok.com/@tremplindispositif?lang=fr"><img className="medias-img" src={fichier19} alt=""></img></a>
-                        <a target="_blank" href="https://www.instagram.com/_tremplin_/"><img className="medias-img" src={fichier15} alt=""></img></a>
-                        <a target="_blank" href="https://www.youtube.com/"><img className="medias-img" src={fichier16} alt=""></img></a>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100075059184328"><img className="medias-img" src={linkedin} alt=""></img></a>
+                        <a target="_blank" href="https://twitter.com/Tremplin_/with_replies"><img className="medias-img" src={fichier18} alt="Vers twitter"></img></a>
+                        <a target="_blank" href="https://www.tiktok.com/@tremplindispositif?lang=fr"><img className="medias-img" src={fichier19} alt="Vers tiktok"></img></a>
+                        <a target="_blank" href="https://www.instagram.com/_tremplin_/"><img className="medias-img" src={fichier15} alt="Vers instagram"></img></a>
+                        <a target="_blank" href="https://www.youtube.com/"><img className="medias-img" src={fichier16} alt="Vers YouTube"></img></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100075059184328"><img className="medias-img" src={linkedin} alt="Vers Linkedin"></img></a>
                     </div>
                 </div>
             </div>
-            <div className="text-footer">© Tremplin 2021·Confidentialité·Conditions générales·Plan du site·Fonctionnement du site·Infos sur l'entreprise</div>
+         <NavLink exact to="/conditiongeneral">   <div className="text-footer">© Tremplin 2021·Confidentialité·Conditions générales·Plan du site·Fonctionnement du site·Infos sur l'entreprise</div> </NavLink>
         </>
-        // <footer className="footer">
-        //     <div className="footer-left">
-        //         <img src={logofooter} className="footer-logo"></img>
-        //         <p className="footer-company-name">© Tremplin 2021 · Confidentialité · Conditions générales · Plan du site · Fonctionnement du site · Infos sur l'entreprise</p>
-        //     </div>
-        //     <div className="footer-right">
-        //         <div className="ligne1">
-        //             <a target="_blank" href="https://www.instagram.com/_tremplin_/"><img className="footer-img" src={fichier15} alt=""></img></a>
-        //             <a target="_blank" href="https://twitter.com/Tremplin_/with_replies"><img className="footer-img" src={fichier18} alt=""></img></a>
-        //             <a target="_blank" href="https://www.tiktok.com/@tremplindispositif?lang=fr"><img className="footer-img" src={fichier19} alt=""></img></a>
-        //             <a target="_blank" href="https://www.facebook.com/profile.php?id=100075059184328"><img className="footer-img" src={fichier17} alt=""></img></a>
-        //             <a target="_blank" href="https://www.youtube.com/"><img className="footer-img" src={fichier16} alt=""></img></a>
-        //         </div>
-        //     </div>
-
-        // </footer>
 
     );
 };
