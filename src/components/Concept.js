@@ -10,8 +10,8 @@ const Concept = () => {
   }, []);
   return (
     <>
-      <div  id="concept" className="container-concept-2"data-aos="fade-up" data-aos-delay="200">
-        <div className="circle"></div>
+      <div className="container-concept-2"data-aos="fade-up" data-aos-delay="200">
+        <div id="concept" className="circle"></div>
         <div className="concept-title">Notre concept</div>
         <div className="lamp2">
           <img src={lamp2} alt="" />

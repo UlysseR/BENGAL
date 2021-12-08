@@ -1,139 +1,136 @@
 .events-container {
-  margin-left: 20%;
-  position: relative;
-  height: 500px;
-  margin-top: 15%;
-  color: #353535;
-  background-color: transparent !important;
-  .events-content {
-    margin-top: 100px;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    position: absolute;
-    width: 542px;
-    height: 143px;
-    margin-left: -17px;
-  }
+    margin-left: 20%;
+    position: relative;
+    height: 500px;
+    margin-top: 15%;
+    color: #353535;
+    background-color: transparent !important;
+    .events-content {
+        margin-top: 100px;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        position: absolute;
+        width: 542px;
+        height: 143px;
+        margin-left: -17px;
+    }
 }
 
 .events-title {
-  position: absolute;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  background: transparent !important;
+    position: absolute;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background: transparent !important;
 }
 
 .container-all-events {
-  .all-events {
-    margin-top: 15%;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 20px;
-    margin-left: 20%;
-    align-items: center;
-    display: flex;
-  }
-  .lance {
-    margin-top: -2%;
-    margin-left: 20px;
-    width: 70px;
-    height: 70px;
-  }
+    .all-events {
+        margin-top: 15%;
+        font-family: Helvetica Neue;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 20px;
+        margin-left: 20%;
+        align-items: center;
+        display: flex;
+    }
+    .lance {
+        margin-top: -2%;
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
 }
 
 .event-card {
-  position: absolute;
-  margin-top: 15%;
+    position: absolute;
+    margin-top: 15%;
 }
 .event-card2 {
-  margin-left: 40%;
-  position: absolute;
-  margin-top: 15%;
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 15%;
 }
 
 @media only screen and (max-width: 1440px) {
-  .events-container {
-    margin-top: 250px;
-    margin-left: 15%;
-  }
-  .container-all-events {
-
-    .all-events {
- margin-left: 0 !important;
-      .lance {
-        margin-top: -3%;
-      }
+    .events-container {
+        margin-top: 250px;
+        margin-left: 15%;
     }
-  }
+    .all-events {
+        margin-left: 15%;
+        .lance {
+            margin-top: -3%;
+        }
+    }
 }
 
-@media only screen and (max-width: 428px) {
-  .events-container {
-    margin: auto;
-    position: relative;
-    margin-top: 80%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    .events-title {
-      position: relative;
-      margin: auto;
-      width: 100%;
-    }
-    .events-content {
-      margin: auto;
-      position: relative;
-      margin-top: 10%;
-      width: 100%;
-      p {
+@media only screen and (max-width: 433px) {
+    .events-container {
         margin: auto;
-        width: 315px;
+        position: relative;
+        margin-top: 80%;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-      }
+        .events-title {
+            position: relative;
+            margin: auto;
+            width: 100%;
+        }
+        .events-content {
+            margin: auto;
+            position: relative;
+            margin-top: 10%;
+            width: 100%;
+            p {
+                margin: auto;
+                width: 315px;
+                text-align: center;
+            }
+        }
+        .event-card {
+            position: relative;
+            margin: auto;
+            height: 100%;
+            img {
+                margin: auto;
+                width: 300px;
+            }
+        }
+        .event-card2 {
+            display: none;
+        }
     }
-    .event-card {
-      position: relative;
-      margin: auto;
-      height: 100%;
-      img {
-        margin: auto;
-        width: 300px;
-      }
-    }
-    .event-card2 {
-      display: none;
-    }
-  }
 
-  .all-events {
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    margin-top: 40%;
-    padding-bottom: 20%;
-    font-size: 14px;
-    background: transparent;
-  }
-  .container-all-events {
-    margin-left: -90% !important;
-    margin-top: 40%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    .lance {
-      margin-left: 10px !important;
-      margin-top: -4%;
-      width: 60px;
-      height: 60px;
+    .all-events {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        margin-top: 40%;
+        padding-bottom: 20%;
+        font-size: 14px;
+        background: transparent;
     }
-  }
+    .container-all-events {
+        margin-left: -90% !important;
+        margin-top: 40%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .lance {
+            margin-left: 10px !important;
+            margin-top: -4%;
+            width: 60px;
+            height: 60px;
+        }
+    }
 }

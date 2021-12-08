@@ -254,7 +254,7 @@
     }
 }
 
-@media only screen and (max-width: 433px) {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
     .container-landing {
         width: 100%;
     }
@@ -385,6 +385,7 @@
         margin-left: 0;
     }
 }
+
 @media only screen and (max-width: 380px) {
     .container-landing {
         width: 100%;
