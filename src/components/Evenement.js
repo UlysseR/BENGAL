@@ -98,10 +98,6 @@ const Evenement = () => {
                     </div>
                 </ReactFloaterJs>
             </div>
-            <div data-aos="fade" className="show-more-events">
-                VOIR PLUS <img src={Lance} alt="" />
-            </div>
-
         </>
     );
 };

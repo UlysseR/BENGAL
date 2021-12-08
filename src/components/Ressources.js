@@ -196,10 +196,6 @@ const Ressources = () => {
           </div>
         </ReactFloaterJs>
       </div>
-
-      <div data-aos="fade" className="show-more">
-        VOIR PLUS <img src={Lance} alt="" />
-      </div>
     </>
   );
 };
