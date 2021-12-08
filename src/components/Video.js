@@ -27,11 +27,11 @@ const Video = () => {
           <div data-aos="fade-right" data-aos-delay="200" className="title-top">
             Nos Vidéos
             <div className="sous-titre-video1">
-              Retrouvez toutes nos dernières vidéos sur notre chaîne YouTube ici
+              Retrouvez toutes nos dernières vidéos <br></br>  sur notre chaîne YouTube ici
               :
             </div>
             <div data-aos="fade" className="show-more-video">
-              VOIR PLUS <img src={lance} alt="" />
+              VOIR LA CHAINE <img src={lance} alt="" />
             </div>
           </div>
           <img

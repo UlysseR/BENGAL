@@ -4,10 +4,14 @@ import Landing from '../components/Landing';
 
 const Landings = () => {
     return (
-        <div className="bengal">
-            <Landing/>
-            <Footer/>
-        </div>
+        <>
+            <div className="landing-container">
+                <Landing />
+                <div className="footer-landing">
+                    <Footer />
+                </div>
+            </div>
+        </>
     );
 };
 

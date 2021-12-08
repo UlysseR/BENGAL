@@ -1,4 +1,4 @@
-.container-concept {
+.container-concept-2 {
   margin-left: 20%;
   margin-top: 1000px;
   position: relative;
@@ -33,14 +33,15 @@
   background: transparent !important;
 }
 
-.lamp {
+.lamp2 {
+  position: absolute;
   margin-top: 40px;
   margin-left: 50%;
   width: 390px;
   height: 375px;
 }
 
-.title-concept { 
+.title-concept {
   font-family: Helvetica Neue;
   font-style: normal;
   font-weight: 500;
@@ -57,12 +58,11 @@
 
 .p-concept {
   font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-    margin-top: 200px;
-    position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 200px;
+  position: absolute;
 }
-
 
 @media only screen and (min-width: 2560px) {
   .concept-title {
@@ -80,36 +80,42 @@ font-weight: normal;
 }
 
 @media only screen and (max-width: 433px) {
-  .container-concept {
-    margin-top: 150%;
-    margin-left: 0;
+  .container-concept-2 {
+    width: 100%;
+    margin: auto !important;
+    margin-top: 150% !important;
     justify-content: center;
-    display: flex;
     align-items: center;
     text-align: center;
+    display: flex;
+    position: relative;
+    .concept-title {
+      margin: auto;
+      position: absolute;
+      width: 315px;
+    }
+    .circle {
+      position: absolute;
+    }
+    .title-concept {
+      margin-top: 60%;
+      text-align: center;
+      width: 315px;
+    }
+    .p-concept {
+      margin-top: 120% !important;
+      width: 315px;
+      margin-top: 70%;
+      text-align: center;
+    }
   }
-  .concept-title {
-    margin: auto;
-    width: 315px;
+  .lamp2 {
+    display: none;
   }
-  .circle {
-   position: absolute;
-  }
-  .title-concept {
-    text-align: center;
-    width: 315px;
-
-  }
-  .p-concept{
-    width: 315px;
-    margin-top: 70%;
-
-    text-align: center;
-  } 
 }
 
 @media only screen and (max-width: 1440px) {
-  .container-concept {
+  .container-concept-2 {
     margin-left: 15%;
   }
   .lamp {

@@ -1,6 +1,6 @@
 import React from "react";
 import more from "../media/SVG/more.svg";
-import lamp from "../media/illustration/lamp.svg";
+import lamp2 from "../media/SVG/lampdeBZ.svg";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -10,19 +10,18 @@ const Concept = () => {
   }, []);
   return (
     <>
-      <div className="container-concept">
-        <div data-aos="fade-right">
-          <div id="concept" className="circle"></div>
-          <div className="concept-title">Notre concept</div>
+      <div  id="concept" className="container-concept-2"data-aos="fade-up" data-aos-delay="200">
+        <div className="circle"></div>
+        <div className="concept-title">Notre concept</div>
+        <div className="lamp2">
+          <img src={lamp2} alt="" />
         </div>
-        <div className="concept-content">
-         <div data-aos="fade" data-aos-delay="200" className="title-concept">Faciliter l’accessibilité à l’entrepreneuriat :</div> 
-          <div data-aos="fade" data-aos-delay="250" className="p-concept"> 
-          &#8226; Mettre à disposition des ressources et guides pour se lancer <br></br>
+          <div  className="title-concept">Faciliter l’accessibilité à l’entrepreneuriat :</div>
+          <div data-aos="fade-up" data-aos-delay="200" className="p-concept">
+            &#8226; Mettre à disposition des ressources et guides pour se lancer <br></br>
             &#8226; Créer une communauté <br></br>
             &#8226; d’entrepreneurs Motiver & inspirer <br></br>
           </div>
-        </div>
       </div>
     </>
   );

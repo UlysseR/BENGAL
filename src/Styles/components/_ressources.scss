@@ -226,20 +226,8 @@
   color: #353535;
 }
 
-// @media only screen and (max-width: 1920px) {
-//   .title-top {
-//     margin-left: 1%;
-//   }
-//   .container-top {
-//     img {
-//       margin-left: 55%;
-//     }
-//     .mail {
-//       margin-left: 13%;
-//     }
-//     .filter {
-//       margin-left: 13%;
-//     }
-//   }
-  
-// }
+@media only screen and (max-width: 433px) {
+  .ressources-grid { 
+    gap: 5px;
+  }
+}

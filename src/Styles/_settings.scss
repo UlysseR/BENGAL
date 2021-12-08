@@ -1,14 +1,13 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    background-color: #FFFAF4;
+    background-color: #fffaf4;
 }
 
 html {
     height: 100%;
-    scroll-behavior: smooth;
-    
+    // scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -18,174 +17,357 @@ body {
     height: 100%;
 }
 
+.landing-container {
+    overflow: hidden;
+}
+
+/* MENU Text part */
+
+.container-burger {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    .main-nav {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        background: #353535;
+        opacity: 0;
+        z-index: -1;
+        visibility: hidden;
+        transition: all 0.375s;
+    }
+
+    .main-nav.is-open {
+        opacity: 1;
+        z-index: 100;
+        visibility: visible;
+    }
+
+    /* Yellow band effect */
+    .main-nav::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: -15px;
+        background: #fffaf4;
+        transform-origin: 0 0;
+        transform: skew(-14deg) translateX(-120%);
+        transition: all 0.275s 0.1s;
+    }
+
+    .main-nav.is-open::before {
+        transform: skew(-14deg) translateX(0);
+    }
+
+    /* Skewing effect on menu links */
+    .main-nav ul {
+        display: inline-flex;
+        margin-top: -650%;
+        flex-direction: column;
+        height: 100%; /* Should be 100%, but we have a notice message :D */
+        align-items: flex-end;
+        justify-content: center;
+        transform: translateX(-18%) skew(-16deg);
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: right;
+        transform: skew(16deg);
+    }
+
+    /* Apparition effect on links */
+    .main-nav a {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    .main-nav.is-open a {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .main-nav li:nth-child(1) a {
+        transition: all 275ms 175ms;
+    }
+    .main-nav li:nth-child(2) a {
+        transition: all 275ms 225ms;
+    }
+    .main-nav li:nth-child(3) a {
+        transition: all 275ms 275ms;
+    }
+    .main-nav li:nth-child(4) a {
+        transition: all 275ms 325ms;
+    }
+    .main-nav li:nth-child(5) a {
+        transition: all 275ms 375ms;
+    }
+
+    /* Decoration */
+    .main-nav ul,
+    .main-nav li {
+        list-style: none;
+        padding: 0;
+        background: transparent;
+    }
+    .main-nav a {
+        background: transparent;
+        display: block;
+        padding: 12px 0;
+        color: #353535;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* Burger Style: @see: https://codepen.io/CreativeJuiz/full/oMZNXy */
+    .open-main-nav {
+        position: absolute;
+        top: 15px;
+        padding-top: 20px;
+        right: 15px;
+        z-index: 1000;
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
+    .open-main-nav:focus {
+        outline: none;
+    }
+    .burger {
+        position: relative;
+        display: block;
+        width: 28px;
+        height: 4px;
+        margin: 0 auto;
+        background: #353535;
+        transform: skew(5deg);
+        transition: all 0.275s;
+    }
+
+    .burger:after,
+    .burger:before {
+        content: "";
+        display: block;
+        height: 100%;
+        background: #353535;
+        transition: all 0.275s;
+    }
+
+    .burger:after {
+        transform: translateY(-12px) translateX(-2px) skew(-20deg);
+    }
+
+    .burger:before {
+        transform: translateY(-16px) skew(-10deg);
+    }
+
+    /* Toggle State part */
+    .is-open .burger {
+        transform: skew(5deg) translateY(-8px) rotate(-45deg);
+    }
+
+    .is-open .burger:before {
+        transform: translateY(0px) skew(-10deg) rotate(75deg);
+    }
+
+    .is-open .burger:after {
+        transform: translateY(-12px) translateX(10px) skew(-20deg);
+        opacity: 0;
+    }
+}
+
+.container-burger {
+    display: none;
+}
+
+@media only screen and (max-width: 433px) {
+    .container-burger {
+        display: block;
+    }
+}
+
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Black-900.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Black-900.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Bold-700.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Bold-700.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-ExtraBold-800.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-ExtraBold-800.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Light-300.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Light-300.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Medium-500.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Medium-500.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton 400';
-    src: url(font/Denton-Test-Regular-400.woff) format('woff');
+    font-family: "Denton 400";
+    src: url(font/Denton-Test-Regular-400.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton 100', sans-serif;
-    src: url(font/Denton-Test-Thin-100.woff) format('woff');
+    font-family: "Denton 100", sans-serif;
+    src: url(font/Denton-Test-Thin-100.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url(font/HelveticaNeue-Medium.woff2) format('woff2'), url(font/HelveticaNeue-Medium.woff) format('woff');
+    font-family: "Helvetica Neue";
+    src: url(font/HelveticaNeue-Medium.woff2) format("woff2"), url(font/HelveticaNeue-Medium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url(font/HelveticaNeue-Italic.woff2) format('woff2'), url(font/HelveticaNeue-Italic.woff) format('woff');
+    font-family: "Helvetica Neue";
+    src: url(font/HelveticaNeue-Italic.woff2) format("woff2"), url(font/HelveticaNeue-Italic.woff) format("woff");
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica 100', sans-serif;
-    src: url(font/HelveticaNeue-Thin.woff2) format('woff2'), url(font/HelveticaNeue-Thin.woff) format('woff');
+    font-family: "Helvetica 100", sans-serif;
+    src: url(font/HelveticaNeue-Thin.woff2) format("woff2"), url(font/HelveticaNeue-Thin.woff) format("woff");
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url(font/HelveticaNeue-Light.woff2) format('woff2'), url(font/HelveticaNeue-Light.woff) format('woff');
+    font-family: "Helvetica Neue";
+    src: url(font/HelveticaNeue-Light.woff2) format("woff2"), url(font/HelveticaNeue-Light.woff) format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica Bold';
-    src: url(font/HelveticaNeue-Bold.woff2) format('woff2'), url(font/HelveticaNeue-Bold.woff) format('woff');
+    font-family: "Helvetica Bold";
+    src: url(font/HelveticaNeue-Bold.woff2) format("woff2"), url(font/HelveticaNeue-Bold.woff) format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url(font/HelveticaNeue.woff2) format('woff2'), url(font/HelveticaNeue.woff) format('woff');
+    font-family: "Helvetica Neue";
+    src: url(font/HelveticaNeue.woff2) format("woff2"), url(font/HelveticaNeue.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Black-900.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Black-900.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Bold-700.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Bold-700.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-ExtraBold-800.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-ExtraBold-800.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Light-300.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Light-300.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Medium-500.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Medium-500.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Regular-400.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Regular-400.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Denton test';
-    src: url(font/Denton-Test-Thin-100.woff) format('woff');
+    font-family: "Denton test";
+    src: url(font/Denton-Test-Thin-100.woff) format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-$color1: #3B51D1;
-$color2: #15B097;
-$color3: #D65D38;
+$color1: #3b51d1;
+$color2: #15b097;
+$color3: #d65d38;
 
 $color3: #353535;
-$color4: #FFFAF4;
+$color4: #fffaf4;
 
+$font1: "Helvetica Neue", sans-serif;
+$font2: "Denton test", sans-serif;
 
-
-$font1: 'Helvetica Neue', sans-serif;
-$font2: 'Denton test', sans-serif;
+a {
+    color: inherit;
+}

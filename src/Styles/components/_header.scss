@@ -32,9 +32,7 @@ a {
     -o-transition: 0.2s;
 }
 
-.hamburger {
-    display: none;
-}
+
 
 a:hover {
     color: #d65d38;
@@ -52,22 +50,15 @@ a:hover {
         line-height: normal;
         width: 100%;
     }
+    
     .menu {
         display: none;
     }
     .logo {
-        margin-left: 133px;
+        margin-left: 15px;
         margin-top: 30px;
         width: 100px;
         height: 28px;
-    }
-    .hamburger {
-        float: right;
-        margin-right: 19px;
-        margin-top: 28px;
-        display: inherit;
-        width: 42px;
-        height: 31px;
     }
 }
 

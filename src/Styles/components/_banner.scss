@@ -133,21 +133,26 @@ p {
 @media only screen and (max-width: 433px) {
     .container {
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
     }
     .header-text {
-        text-align: left;
-        margin-left: 29px;
         margin-top: -120px;
         width: 356px;
         height: 290px;
     }
     .title-1 {
         font-size: 35px;
+        text-align: left;
     }
     .title-2 {
         font-size: 45px;
+        margin-top: -20px;
     }
     .title-3 {
+        margin-top: -20px;
         font-size: 35px;
     }
     .header-img {
@@ -167,8 +172,5 @@ p {
     .container {
         margin-top: -10%;
     }
-    .scroll-down {
-        margin-left: 15%;
-        margin-top: 150%;
-    }
+
 }
