@@ -31,8 +31,8 @@ const Video = () => {
               :
             </div>
             <div data-aos="fade" className="show-more-video">
-              VOIR LA CHAINE <img src={lance} alt="Voir la chaine youtube" />
-            </div>
+              VOIR LA CHAINE <a href="https://www.youtube.com/channel/UCIFqLKg7NDzzrvWxuA37pAA/featured" target="_blank"><img src={lance} alt="Voir la chaine youtube" /></a>
+            </div> 
           </div>
           <img
             data-aos="fade-left"

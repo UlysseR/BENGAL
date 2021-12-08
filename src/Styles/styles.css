@@ -866,7 +866,7 @@ p {
   display: -ms-grid;
   display: grid;
   gap: 150px 0px;
-      grid-template-areas: "grid-logo grid-news" "grid-nav grid-medias";
+      grid-template-areas: "grid-logo grid-news" "grid-nav grid-medias";
 }
 
 .grid-logo {
@@ -3158,7 +3158,7 @@ select:focus {
   }
 }
 
-@media only screen and (device-width: 428px) {
+@media only screen and (max-width: 433px) {
   .container-landing {
     width: 100%;
   }
@@ -3429,5 +3429,78 @@ select:focus {
 
 .container-burger {
   display: none;
+}
+
+[class^="safari"] {
+  display: none;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  .safari {
+    display: block;
+  }
+  .line2 {
+    display: none;
+  }
+  .other {
+    display: none;
+  }
+  .line {
+    margin: auto;
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+  .container-1 {
+    margin-top: 5%;
+  }
+  .container-1 .img-container {
+    margin-left: 60%;
+  }
+  .container-2 {
+    margin-top: 15% !important;
+    margin-left: 35%;
+  }
+  .container-2 .img-phone {
+    margin-top: 10%;
+    margin-left: -45%;
+  }
+  .container-2 .all-ressources {
+    margin-left: 65%;
+  }
+  .container-2 .lance {
+    margin-left: 0;
+    margin-top: -25%;
+  }
+  .container-3 {
+    margin-top: 80%;
+    margin-left: 15%;
+  }
+  .container-3 .lance {
+    margin-top: -15%;
+  }
+  .container-4 {
+    margin-top: 150%;
+    margin-left: 35%;
+  }
+  .container-4 .sous-titre-landing {
+    margin-left: 5%;
+  }
+  .container-4 .lance {
+    margin-top: -20%;
+  }
+  .container-4 .img-baloon {
+    margin-left: -45%;
+  }
+  .container-5 {
+    margin-top: 225%;
+    margin-left: -20%;
+  }
+  .container-5 .lance {
+    margin-top: -5%;
+    margin-left: 75%;
+  }
+  .footer-landing {
+    margin-top: 265%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
