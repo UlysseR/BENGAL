@@ -19,7 +19,6 @@ const Landing = () => {
     }, []);
     return (
         <>
-        <ReactFloaterJs>
             <div data-aos="fade" className="header-landing"><img src={Logo}></img></div>
             <div className="container-landing" data-aos="fade" daya-aos-delay="250">
                 <img className="line" src={Line}  ></img>
@@ -69,7 +68,7 @@ const Landing = () => {
                         </div>
                     </NavLink>
                 </div>
-            </div></ReactFloaterJs>
+            </div>
         </>
     );
 };

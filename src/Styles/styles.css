@@ -24,13 +24,13 @@ body {
 
 /* MENU Text part */
 .container-burger {
-  height: 100%;
+  height: 100vh;
+  overflow: hidden;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  overflow: hidden;
   /* Yellow band effect */
   /* Skewing effect on menu links */
   /* Apparition effect on links */
@@ -57,11 +57,13 @@ body {
 
 .container-burger .main-nav.is-open {
   opacity: 1;
+  overflow: hidden;
   z-index: 100;
   visibility: visible;
 }
 
 .container-burger .main-nav::before {
+  overflow: hidden;
   content: "";
   position: absolute;
   top: 0;
@@ -78,15 +80,17 @@ body {
 }
 
 .container-burger .main-nav.is-open::before {
+  overflow: hidden;
   -webkit-transform: skew(-14deg) translateX(0);
           transform: skew(-14deg) translateX(0);
 }
 
 .container-burger .main-nav ul {
+  overflow: hidden;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-top: -650%;
+  margin-top: -40%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -104,6 +108,7 @@ body {
 }
 
 .container-burger .main-nav li {
+  overflow: hidden;
   display: block;
   margin: 0.5rem 0;
   text-align: right;
@@ -112,6 +117,7 @@ body {
 }
 
 .container-burger .main-nav a {
+  overflow: hidden;
   opacity: 0;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -150,12 +156,14 @@ body {
 
 .container-burger .main-nav ul,
 .container-burger .main-nav li {
+  overflow: hidden;
   list-style: none;
   padding: 0;
   background: transparent;
 }
 
 .container-burger .main-nav a {
+  overflow: hidden;
   background: transparent;
   display: block;
   padding: 12px 0;

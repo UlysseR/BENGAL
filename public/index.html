@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="FR-fr">
-  <head>
-    <meta charset="utf-8"/>
-    <link rel="icon" href="%PUBLIC_URL%/tremplin.png"/>
-    <script src="https://kit.fontawesome.com/ea82f7662d.js" crossorigin="anonymous"></script>
-    <meta name="entrepreneuriat" content="balise meta, mots-clés, entrepreneuriat">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="theme-color" content="#000000"/>
-    <meta name="description" 
-      content="Nous avons créé une plateforme/qui facilite l’accessibilité à l’entrepreneuriat 
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/tremplin.png" />
+  <script src="https://kit.fontawesome.com/ea82f7662d.js" crossorigin="anonymous"></script>
+  <link rel="Tremplin" href="https://www.mon-tremplin.fr" />
+  <script src="/jquery-1.10.2.min.js"></script>
+  <meta name="entrepreneuriat" content="balise meta, mots-clés, entrepreneuriat">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Nous avons créé une plateforme/qui facilite l’accessibilité à l’entrepreneuriat 
       grace à deux leviers. Menée principalement par un site proposant des astuces et des conseils 
       qui donnerait des clés simples et claires pour pousser à se lancer dans l’entrepreneuriat.
       De plus pour faciliter l’apprentissage, une chaîne Youtube avec plein de tutos et d’exemple 
       d’entrepreneuriat à succès. Nous croyons en un entrepreneuriat accessible à tous. 
       Notre but est de vous prouver qu’avec les bonnes ressources et les bons outils en mains, 
-      rien ne peut vous arrêter."/>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <title>Tremplin</title>
-  </head>
-  <body>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDJPPX1PDG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      rien ne peut vous arrêter." />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Tremplin</title>
+</head>
 
-  gtag('config', 'G-KDJPPX1PDG');
-</script>
-    <div id="root"></div>
-  </body>
+<body><div class="container-burger">
+      <button id="burger" class="open-main-nav">
+          <span class="burger"></span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+          <ul>
+              <li>
+                  <a href="/video">Nos vidéos</a>
+              </li>
+              <li>
+                  <a href="/ressources">Nos ressources</a>
+              </li>
+              <li>
+                  <a href="/evenements">Nos évenements</a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+  <div id="root">
+    
+ <script>  let burger = document.getElementById('burger'),
+    nav = document.getElementById('main-nav');
+    burger.addEventListener('click', function (e) {
+    this.classList.toggle('is-open');
+    nav.classList.toggle('is-open');
+    });</script> 
+  </div>
+</body>
+
 </html>
