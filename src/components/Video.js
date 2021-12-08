@@ -97,7 +97,7 @@ const Video = () => {
         </div>
       </div>
       <div data-aos="fade" className="show-more-vid">
-        VOIR PLUS <img src={Lance} alt="Vers la chaine youtube" />
+        VOIR PLUS <a href="https://www.youtube.com/channel/UCIFqLKg7NDzzrvWxuA37pAA/featured" target="_blank"><img src={lance} alt="Voir la chaine youtube" /></a>
       </div>
     </>
   );
