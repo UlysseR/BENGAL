@@ -598,10 +598,10 @@
     display: block;
   }
   .other {
-    display: none;
+    display: none !important;
   }
   .line1 {
-    display: none;
+    display: none !important;
   }
   .line2 {
     display: block;
