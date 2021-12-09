@@ -159,3 +159,12 @@
   }
 }
 
+.send-mail-events {
+  position: absolute;
+  margin-top: -2% !important;
+  transition: 0.3s;
+}
+.send-mail-events:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

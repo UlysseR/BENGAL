@@ -42,7 +42,7 @@ const Evenement = () => {
           />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <img
-            className="send-mail"
+            className="send-mail-events"
             src={Search}
             alt="rechercher un evenement"
           ></img>

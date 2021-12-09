@@ -46,7 +46,7 @@ const Ressources = () => {
             size="37"
           />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <img className="send-mail" src={Search} alt="Rechercher une ressources"></img>
+          <img className="send-mail-ressource" src={Search} alt="Rechercher une ressources"></img>
         </div>
         <div className="filter" data-aos="fade" data-aos-delay="400">
           Trier par : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
