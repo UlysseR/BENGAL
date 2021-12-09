@@ -3499,4 +3499,23 @@ select:focus {
     margin-top: 265%;
   }
 }
+<<<<<<< Updated upstream
+=======
+
+@supports (-webkit-touch-callout: none) {
+  .safari {
+    display: block;
+  }
+  .other {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+  .line2 {
+    display: block;
+    margin-top: 0;
+  }
+}
+>>>>>>> Stashed changes
 /*# sourceMappingURL=styles.css.map */
