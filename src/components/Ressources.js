@@ -91,8 +91,8 @@ const Ressources = () => {
             <div className="ress-title">
               Covid et entrepreneuriat : Bilan.
               <p className="grid-p">
-                L’état de l’entrepreneuriat après la crise du Covid-19 quen
-                cnclure ? Un plan d’envergure pour aider les entreprises après
+                L’état de l’entrepreneuriat après la crise du Covid-19, qu'en
+                conclure ? Un plan d’envergure pour aider les entreprises après
                 le Coronavirus ?
               </p>
             </div>

@@ -33,7 +33,7 @@ const Ressource = () => {
                 <article data-aos="fade-up" data-aos-delay="50" className="connaitre">
                     <h2>Connaître les outils légaux</h2>
                     <p>
-                        Pour se lancer, il faut passer par étapes indispensables, mais ce n’est pas parce qu’elles sont
+                        Pour se lancer, il faut passer par des étapes indispensables, mais ce n’est pas parce qu’elles sont
                         indispensables qu’elles sont compliqué. On vous guide à travers <br></br>...
                     </p>
                     <img className="marteau" src={marteau} alt="Illutsration connaître les outils légaux"></img>

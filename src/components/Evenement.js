@@ -19,7 +19,7 @@ const Evenement = () => {
                     <div data-aos="fade-right" data-aos-delay="200" className="title-top">
                         Nos Evenements
                         <div className="sous-titre-video">
-                            Retrouvez tous nos évènement pour commencer à vous créer un réseau, parler de vos projets et échanger avec d’autres futurs entrepreneurs.
+                            Retrouvez tous nos évènements pour commencer à vous créer un réseau, parler de vos projets et échanger avec d’autres futurs entrepreneurs.
                         </div>
                     </div>
                     <img

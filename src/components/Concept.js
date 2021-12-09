@@ -19,8 +19,8 @@ const Concept = () => {
           <div  className="title-concept">Faciliter l’accessibilité à l’entrepreneuriat :</div>
           <div data-aos="fade-up" data-aos-delay="200" className="p-concept">
             &#8226; Mettre à disposition des ressources et guides pour se lancer <br></br>
-            &#8226; Créer une communauté <br></br>
-            &#8226; d’entrepreneurs Motiver & inspirer <br></br>
+            &#8226; Créer une communauté d’entrepreneurs<br></br>
+            &#8226; Motiver & inspirer <br></br>
           </div>
       </div>
     </>
