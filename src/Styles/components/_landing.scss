@@ -519,7 +519,6 @@
   }
 }
 
-
 [class^="safari"] {
   display: none;
 }
@@ -589,6 +588,22 @@
     }
   }
   .footer-landing {
-      margin-top: 265%;
+    margin-top: 265%;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .safari {
+    display: block;
+  }
+  .othet {
+    display: none;
+  }
+  .line1 {
+    display: none;
+  }
+  .line2 {
+    display: block;
+    margin-top: 0;
   }
 }
