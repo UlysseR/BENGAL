@@ -592,19 +592,3 @@
       margin-top: 265%;
   }
 }
-
-@supports (-webkit-touch-callout: none) {
-  .safari {
-    display: block;
-  }
-  .other {
-    display: none !important;
-  }
-  .line1 {
-    display: none !important;
-  }
-  .line2 {
-    display: block !important;
-    margin-top: 0;
-  }
-}
