@@ -122,3 +122,14 @@
     margin-left: 45%;
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+  .title-concept {
+    margin-top: 30% !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .p-concept {
+    position: relative;
+  }
+}

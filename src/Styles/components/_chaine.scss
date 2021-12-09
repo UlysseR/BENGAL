@@ -114,3 +114,16 @@
         width: auto;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    .video-content {
+        margin-top: 40%;
+    }
+    .video {
+        margin: auto;
+        width: 100%;
+        position: absolute;
+        background: transparent;
+        margin-top: 50%;
+    }
+  }

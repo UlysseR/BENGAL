@@ -728,6 +728,19 @@ p {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  .video-content {
+    margin-top: 40%;
+  }
+  .video {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    margin-top: 50%;
+  }
+}
+
 .container-concept-2 {
   margin-left: 20%;
   margin-top: 1000px;
@@ -856,6 +869,17 @@ p {
   }
   .lamp {
     margin-left: 45%;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .title-concept {
+    margin-top: 30% !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .p-concept {
+    position: relative;
   }
 }
 
@@ -1642,6 +1666,12 @@ i {
   .all-ressources .lance {
     width: 60px;
     height: 60px;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .ressource {
+    margin-top: 130% !important;
   }
 }
 

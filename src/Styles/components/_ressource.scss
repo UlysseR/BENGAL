@@ -417,3 +417,9 @@ i {
     }
   }
 }
+
+@supports (-webkit-touch-callout: none) {
+.ressource {
+  margin-top: 130% !important;
+}
+}

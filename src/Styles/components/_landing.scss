@@ -592,7 +592,8 @@
   }
 }
 
-@supports (-webkit-touch-callout: none) {
+@supports (-webkit-touch-callout: none){
+  
   .safari {
     display: block;
   }
