@@ -83,7 +83,7 @@
   -o-transform: scale(1.2);
 }
 
-input.send-mail {
+.send-mail-footer{
   color: #353535;
   font-size: 24px;
   font-family: $font1;
@@ -93,7 +93,7 @@ input.send-mail {
   transition: 0.2s;
 }
 
-input:hover {
+.send-mail-footer:hover {
   cursor: pointer;
   transform: scale(1.2);
 }

@@ -971,7 +971,7 @@ p {
   -o-transform: scale(1.2);
 }
 
-input.send-mail {
+.send-mail-footer {
   color: #353535;
   font-size: 24px;
   font-family: "Helvetica Neue", sans-serif;
@@ -982,7 +982,7 @@ input.send-mail {
   transition: 0.2s;
 }
 
-input:hover {
+.send-mail-footer:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
