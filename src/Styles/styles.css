@@ -3499,8 +3499,6 @@ select:focus {
     margin-top: 265%;
   }
 }
-<<<<<<< Updated upstream
-=======
 
 @supports (-webkit-touch-callout: none) {
   .safari {
@@ -3517,5 +3515,4 @@ select:focus {
     margin-top: 0;
   }
 }
->>>>>>> Stashed changes
 /*# sourceMappingURL=styles.css.map */
