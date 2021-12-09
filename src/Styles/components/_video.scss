@@ -205,6 +205,15 @@ select:focus {
 }
 
 @media only screen and (max-width: 1440px) {
+  .container-top-video {
+    margin-left: 5%;
+    .sous-titre-video1 {
+      margin-left: 20% !important;
+    }
+    .show-more-video {
+      margin-left: 20%;
+    }
+  }
   .videos-grid {
     margin-top: 30% !important;
     height: 100%;
@@ -263,7 +272,7 @@ select:focus {
   font-size: 20px;
   line-height: 20px;
   position: absolute;
-  margin-left: 13.25%;
+  margin-left: 11%;
   align-items: center;
   display: flex;
   img {
