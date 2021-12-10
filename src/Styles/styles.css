@@ -2277,7 +2277,7 @@ li {
     margin-top: -5%;
   }
   .title-top .sous-titre-video {
-    margin-left: 7% !important;
+    margin-left: 7%;
     margin-top: 30px;
     width: 700px;
     color: #353535;
@@ -2771,7 +2771,7 @@ select:focus {
     margin-left: 5%;
   }
   .container-top-video .sous-titre-video1 {
-    margin-left: 20% !important;
+    margin-left: 20%;
   }
   .container-top-video .show-more-video {
     margin-left: 20%;
