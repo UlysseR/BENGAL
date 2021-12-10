@@ -2291,6 +2291,17 @@ li {
     /* noir */
     color: #353535;
   }
+  .send-mail-ressource {
+    position: absolute;
+    margin-top: -2% !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .send-mail-ressource:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
 }
 
 .sous-titre-video {
@@ -2499,6 +2510,19 @@ li {
     width: 55px;
     height: 55px;
   }
+}
+
+.send-mail-events {
+  position: absolute;
+  margin-top: -2% !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.send-mail-events:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .sous-titre-video1 {
